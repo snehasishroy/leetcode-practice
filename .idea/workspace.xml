@@ -15,10 +15,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CountBinarySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountBinarySubstrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfMatchingSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfMatchingSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrefixAndSuffixSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrefixAndSuffixSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SentenceScreenFitting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SentenceScreenFitting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwoKeysKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoKeysKeyboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gfg/codingChallenge/CountSubstringsWithEquals0And1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gfg/codingChallenge/CountSubstringsWithEquals0And1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,40 +77,28 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/ShortestWayToFormString.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/RangeModule.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/TopKFrequentElements.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/SplitArrayLargestSum.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/DistinctSubsequences.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AsFarFromLandAsPossible.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/StringsDifferByOneCharacter.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/TwoSum4.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ValidPalindrome.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/SumOfAllOddLengthSubarrays.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/SumOfAllSubsetXORTotals.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/MeetingRooms.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ShuffleArray.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/experience/uber/DSA.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/PalindromePermutation.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/KokoEatingBananas.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfMatchingSubsequences.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/AccountsMerge.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/CourseSchedule.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/JumpGame7.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/PathWithMaxProbability.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/Subsets.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/GreatestSumDivisibleByThree.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/MakingALargeIsland.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/FlattenBinaryTreeToLinkedList.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/LetterCasePermutation.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/SmallestRange2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BulbSwitcher4.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MostSimilarPathInAGraph.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/MaximumElementAfterDecreasingAndRearranging.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ZigZagTraversal.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/StickersToSpellWords.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ReconstructA2RowBinaryMatrix.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MinimumDeletionsToMakeStringBalanced.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/RemoveAllAdjacentDuplicatesInString2.java" root0="FORCE_HIGHLIGHTING" />
@@ -116,9 +106,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/PrintImmutableLinkedListInReverse.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/PutBoxesIntoTheWarehouse1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/DistributeCoinsInBinaryTree.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/FindKClosestElements.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/RLEIterator.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/CombinationIteratorRecursive.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/DesignCompressedStringIterator.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/LongestAbsoluteFilePath.java" root0="FORCE_HIGHLIGHTING" />
@@ -127,9 +115,10 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/LowestCommonAncestorOfABinaryTree3.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ShortestDistanceFromAllBuildings.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/EscapeALargeMaze.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfDistinctIslands.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MaximumAverageSubarray1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfWaysToSplitAString.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BeautifulArrangement.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BeautifulArrangements2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ArrayNesting.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/SortColors.java" root0="FORCE_HIGHLIGHTING" />
@@ -155,19 +144,56 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/ConstrainedSubsequenceSum.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/LongestContiguousSubarrayWithValidDiff.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/SearchInRotatedSortedArray.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/HouseRobber.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MergeTripletsToFormTargetTriplet.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/CheckCompletenessOfBinaryTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/WordLadder.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BuildingsWithAnOceanView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/FrogJump.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/DiceRollSimulation.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/CountNodesInCompleteBinaryTree.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MonotoneIncreasingDigits.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/PalindromePairs.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/CountSortedVowelStrings.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/SumOfSubarrayMinimums.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/FindTheMostCompetitiveSubsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BasicCalculator.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BasicCalculator2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MeetingScheduler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ShortestWayToFormString.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/RangeModule.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/TopKFrequentElements.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/LongestSubstringWithAtMostKDistinctCharacters.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/SumOfAllSubsetXORTotals.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MeetingRooms.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/AlienDictionary.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/KokoEatingBananas.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfMatchingSubsequences.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/PathWithMaxProbability.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Subsets.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/LongestPalindromicSubstring.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MakingALargeIsland.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/FlattenBinaryTreeToLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/LetterCasePermutation.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/SwimInRisingWater.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MinDistanceToTypeUsingTwoFingers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MaximumElementAfterDecreasingAndRearranging.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/SmallestSubtreeWithAllDeepestNodes.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/FindKClosestElements.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/FindKLengthSubstringsWithNoRepeatedCharacters.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MatchsticksToSquare.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/CheckIfAllTheIntegersInARangeAreCovered.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/FindTwoNonOverlappingSubarrayWithTargetSum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/gfg/codingChallenge/TypeIt.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/LongestSubstringWithAtLeastKRepeatingCharacters.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfSubstringsContainingAllThreeCharacters.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/TheNumberOfFullRoundsYouHavePlayed.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/FormArrayByConcatenatingSubarraysOfAnotherArray.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/CountSubIslands.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ShortestWordDistance2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/PalindromePairs.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/SumOfSubarrayMinimums.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ShortestDistanceToACharacter.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -322,13 +348,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00907" summary="Solve medium and a bit tricky problem, find the min no of swaps required to make a binary string alternating using greedy. Target string would either start from 1 or from 0. Result would be the smallest mismatches between those. Care must be taken to weed out the impossible swaps cases.&#10;&#10;Leveraged prior learning of solving alternating string problem.">
-      <created>1621695443380</created>
-      <option name="number" value="00907" />
-      <option name="presentableId" value="LOCAL-00907" />
-      <option name="project" value="LOCAL" />
-      <updated>1621695443380</updated>
     </task>
     <task id="LOCAL-00908" summary="Add comment to tag a reverse index/lookup problem.">
       <created>1621695540447</created>
@@ -666,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624891756553</updated>
     </task>
-    <option name="localTasksCounter" value="956" />
+    <task id="LOCAL-00956" summary="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(">
+      <created>1624892326906</created>
+      <option name="number" value="00956" />
+      <option name="presentableId" value="LOCAL-00956" />
+      <option name="project" value="LOCAL" />
+      <updated>1624892326906</updated>
+    </task>
+    <option name="localTasksCounter" value="957" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -745,7 +771,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add another approach to solve SplitAStringIntoMaxNumberOfUniqueSubstrings using Bit magic" />
     <MESSAGE value="Solve CSES Introductory problem, weird algorithm using simulation.&#10;&#10;Learnings: While multiplication, take care of integer overflow." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the max number of characters that you can remove from a string and still a target string remains the subsequence of that string using binary search.&#10;&#10;Leveraged prior learnings of performing binary search when the result lies in a target space. Happy to solve this question in the contest." />
@@ -770,7 +795,8 @@
     <MESSAGE value="Solve medium problem, find the most visited sequence of website by users using brute force." />
     <MESSAGE value="Fix typo in approach of Candy" />
     <MESSAGE value="Solve GFG challenge, find the no of substrings with equal no of lowercase and uppercase letters using prefix sum.&#10;&#10;Leveraged prior learning of converting the input into -1 or 1 when there are only two options in input." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve GFG challenge, find the no of substrings with equal no of lowercase and uppercase letters using prefix sum.&#10;&#10;Leveraged prior learning of converting the input into -1 or 1 when there are only two options in input." />
+    <MESSAGE value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

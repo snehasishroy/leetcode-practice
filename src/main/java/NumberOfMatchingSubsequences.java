@@ -32,7 +32,7 @@ public class NumberOfMatchingSubsequences {
      * once a is seen, now "a" is completely satisfied, "acd" and "ace" will need to wait for "c". So updated mappings are
      * "b" -> {"bb"}, "c" -> {"cd","ce"}  //"a" has been satisfied and there are no words that require a
      * <p>
-     * {@link IsSubsequence} {@link MinimumWindowSubsequence} {@link LongestWordInDictionaryByDeleting} {@link SplitArrayIntoConsecutiveSubsequences} related problem
+     * {@link IsSubsequence} {@link MinimumWindowSubsequence} {@link LongestWordInDictionaryByDeleting} {@link SplitArrayIntoConsecutiveSubsequences} {@link StringMatchingInAnArray}
      * <p>
      * This was asked in my google fourth interview round :)
      */

@@ -53,7 +53,7 @@ public class PrefixAndSuffixSearch {
      * Space required will be much larger than my current implementation but there is always a trade off
      *
      * This was asked in Google onsite interview
-     * See {@link PrefixAndSuffixSearchOptimized}
+     * See {@link PrefixAndSuffixSearchOptimized} {@link StringMatchingInAnArray}
      * </pre>
      */
     public PrefixAndSuffixSearch(String[] words) {

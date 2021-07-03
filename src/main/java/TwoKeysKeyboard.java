@@ -28,6 +28,7 @@ public class TwoKeysKeyboard {
      * Happy to solve this on my own.
      * <p>
      * {@link MinimumNumberOfRemovalsToMakeMountainArray} {@link BestTeamWithNoConflicts} {@link PerfectSquares} {@link MinDistanceToTypeUsingTwoFingers}
+     * {@link gfg.codingChallenge.TypeIt}
      */
     public int minSteps(int n) {
         if (n == 1) {

@@ -52,7 +52,7 @@ public class SentenceScreenFitting {
      * but if index was at 4 -> e, we can place 'd' in the current row, we have to move the index to the start of the current word
      * in order to place the entire word in the next row.
      *
-     * {@link FindTheStudentThatWilReplaceTheChalk}
+     * {@link FindTheStudentThatWilReplaceTheChalk} {@link StringMatchingInAnArray}
      */
     public int wordsTypingOptimized(String[] sentence, int rows, int cols) {
         for (String word : sentence) { //if any word is longer than the no of columns, we can't fit the sentence

@@ -36,6 +36,8 @@ public class WordLadder {
      * <p>
      * This preprocessing helps in quickly finding all the next level nodes without generating all possible combinations
      * and then checking whether it's valid or not
+     *
+     * {@link StringsDifferByOneCharacter}
      */
     public int ladderLengthOptimized(String beginWord, String endWord, List<String> wordList) {
         HashMap<String, Set<String>> options = new HashMap<>();
