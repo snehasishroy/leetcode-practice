@@ -16,7 +16,7 @@
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FurthestBuildingYouCanReach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FurthestBuildingYouCanReach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,20 +344,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00909" summary="Solve medium problem, find the min speed of train required to arrive before time using binary search.&#10;&#10;Leveraged prior learning of solving binary search problem. Followed errichto's template.">
-      <created>1621860285233</created>
-      <option name="number" value="00909" />
-      <option name="presentableId" value="LOCAL-00909" />
-      <option name="project" value="LOCAL" />
-      <updated>1621860285233</updated>
-    </task>
-    <task id="LOCAL-00910" summary="Solve hard and a bit tricky problem, find the min cost to make at least one valid path in a grid where we can flip the cell value to reach other cell by incurring a cost of 1. Tricky thing was to imagine it as a connected graph with unconnected cell having edge weight of 1.&#10;&#10;Was not able to solve this question on my own. Need a lot of practice on hard problems.">
-      <created>1621975903323</created>
-      <option name="number" value="00910" />
-      <option name="presentableId" value="LOCAL-00910" />
-      <option name="project" value="LOCAL" />
-      <updated>1621975903323</updated>
     </task>
     <task id="LOCAL-00911" summary="Solve medium and a bit tricky problem, find the min number of deci binary numbers that sum to the target value using greedy.&#10;&#10;Trick was to build the answer digit by digit by keeping track of number of 1's required per digit.">
       <created>1622054053426</created>
@@ -688,7 +674,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625338955179</updated>
     </task>
-    <option name="localTasksCounter" value="958" />
+    <task id="LOCAL-00958" summary="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(">
+      <created>1625393804916</created>
+      <option name="number" value="00958" />
+      <option name="presentableId" value="LOCAL-00958" />
+      <option name="project" value="LOCAL" />
+      <updated>1625393804917</updated>
+    </task>
+    <task id="LOCAL-00959" summary="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(">
+      <created>1625393834641</created>
+      <option name="number" value="00959" />
+      <option name="presentableId" value="LOCAL-00959" />
+      <option name="project" value="LOCAL" />
+      <updated>1625393834641</updated>
+    </task>
+    <option name="localTasksCounter" value="960" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,8 +767,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
-    <MESSAGE value="Solve medium and a bit tricky problem, find the max number of characters that you can remove from a string and still a target string remains the subsequence of that string using binary search.&#10;&#10;Leveraged prior learnings of performing binary search when the result lies in a target space. Happy to solve this question in the contest." />
     <MESSAGE value="Add a bunch of related problems to multiple independent problems" />
     <MESSAGE value="Add constraints in the problem statement of DifferentWaysToAddParanthesis" />
     <MESSAGE value="Solve medium problem, find the first student which have to replace the chalk given total amount of chalk available and the amount of chalk consumed by each student using modulo arithmetic." />
@@ -792,7 +790,9 @@
     <MESSAGE value="Solve GFG challenge, find the no of substrings with equal no of lowercase and uppercase letters using prefix sum.&#10;&#10;Leveraged prior learning of converting the input into -1 or 1 when there are only two options in input." />
     <MESSAGE value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
     <MESSAGE value="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution." />
+    <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
+    <MESSAGE value="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
