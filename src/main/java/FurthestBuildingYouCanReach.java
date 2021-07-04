@@ -52,7 +52,7 @@ public class FurthestBuildingYouCanReach {
      * We then try to increase the index, if index is unreachable, we decrement the index
      * <p>
      * TimeComplexity: logn * O(nlogn)
-     * {@link GasStations} {@link MinNumberOfTapsToOpenToWaterGarden} related tricky greedy problems
+     * {@link GasStations} {@link MinNumberOfTapsToOpenToWaterGarden} {@link EliminateMaximumNumberOfMonsters} related tricky greedy problems
      */
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
         int index = 0;
