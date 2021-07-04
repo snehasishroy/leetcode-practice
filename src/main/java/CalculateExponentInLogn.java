@@ -13,7 +13,11 @@
  * Output: 9.26100
  */
 public class CalculateExponentInLogn {
-    //exponentiation by squaring
+    /**
+     * Modular exponentiation using squaring
+     *
+     * {@link CountGoodNumbers}
+     */
     public double myPow(double x, int n) {
         if (n < 0) {
             x = 1D / x;

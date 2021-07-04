@@ -15,12 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculateExponentInLogn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculateExponentInLogn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfMatchingSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfMatchingSubsequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PrefixAndSuffixSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrefixAndSuffixSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SentenceScreenFitting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SentenceScreenFitting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoKeysKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoKeysKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordLadder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,13 +344,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00908" summary="Add comment to tag a reverse index/lookup problem.">
-      <created>1621695540447</created>
-      <option name="number" value="00908" />
-      <option name="presentableId" value="LOCAL-00908" />
-      <option name="project" value="LOCAL" />
-      <updated>1621695540447</updated>
     </task>
     <task id="LOCAL-00909" summary="Solve medium problem, find the min speed of train required to arrive before time using binary search.&#10;&#10;Leveraged prior learning of solving binary search problem. Followed errichto's template.">
       <created>1621860285233</created>
@@ -692,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624892326906</updated>
     </task>
-    <option name="localTasksCounter" value="957" />
+    <task id="LOCAL-00957" summary="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution.">
+      <created>1625338955179</created>
+      <option name="number" value="00957" />
+      <option name="presentableId" value="LOCAL-00957" />
+      <option name="project" value="LOCAL" />
+      <updated>1625338955179</updated>
+    </task>
+    <option name="localTasksCounter" value="958" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,7 +767,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve CSES Introductory problem, weird algorithm using simulation.&#10;&#10;Learnings: While multiplication, take care of integer overflow." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the max number of characters that you can remove from a string and still a target string remains the subsequence of that string using binary search.&#10;&#10;Leveraged prior learnings of performing binary search when the result lies in a target space. Happy to solve this question in the contest." />
     <MESSAGE value="Add a bunch of related problems to multiple independent problems" />
@@ -796,7 +791,8 @@
     <MESSAGE value="Fix typo in approach of Candy" />
     <MESSAGE value="Solve GFG challenge, find the no of substrings with equal no of lowercase and uppercase letters using prefix sum.&#10;&#10;Leveraged prior learning of converting the input into -1 or 1 when there are only two options in input." />
     <MESSAGE value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
+    <MESSAGE value="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
