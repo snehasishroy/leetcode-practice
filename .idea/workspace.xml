@@ -16,6 +16,7 @@
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -344,13 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00912" summary="Solve medium problem, find the maximum sum of subarray containing unique elements using sliding window.&#10;&#10;Leveraged prior learning of solving &quot;maximum&quot; sliding window problem.">
-      <created>1622580281814</created>
-      <option name="number" value="00912" />
-      <option name="presentableId" value="LOCAL-00912" />
-      <option name="project" value="LOCAL" />
-      <updated>1622580281814</updated>
     </task>
     <task id="LOCAL-00913" summary="Solve medium and a bit tricky to optimize find whether a string is composed by interleaving substrings from two different string using DP.&#10;&#10;Leveraged prior learning of solving similar string related recursive problems. Tricky thing was to reduce time complexity from n^3 to n^2 by reducing no of states by generating redundant states from remaining states.">
       <created>1622652700460</created>
@@ -688,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625489385952</updated>
     </task>
-    <option name="localTasksCounter" value="961" />
+    <task id="LOCAL-00961" summary="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion.">
+      <created>1625507473072</created>
+      <option name="number" value="00961" />
+      <option name="presentableId" value="LOCAL-00961" />
+      <option name="project" value="LOCAL" />
+      <updated>1625507473072</updated>
+    </task>
+    <option name="localTasksCounter" value="962" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,6 +749,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="medium .* tricky" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="TEXT_FILTER_SETTINGS">
                 <TextFilterSettings>
                   <option name="REGEX" value="true" />
@@ -767,7 +779,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add constraints in the problem statement of DifferentWaysToAddParanthesis" />
     <MESSAGE value="Solve medium problem, find the first student which have to replace the chalk given total amount of chalk available and the amount of chalk consumed by each student using modulo arithmetic." />
     <MESSAGE value="Solve easy problem, find whether we can make all the strings equal by redistributing the characters using greedy.&#10;&#10;Keep track of frequency of all the characters and check whether it's possible to distribute each character evenly between all the strings." />
     <MESSAGE value="Solve medium and extremely tricky problem, find whether it's possible to merge triplets to form target triplets using greedy.&#10;&#10;Trick was to first ignore any triplet with any value &gt; target triplet value. Then with the remaining triplets, check whether the max value of any triplet equals target value." />
@@ -792,7 +803,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(" />
     <MESSAGE value="Solve easy problem, reshape a given matrix of m*n size to provided r*c size using two pointers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve easy problem, reshape a given matrix of m*n size to provided r*c size using two pointers." />
+    <MESSAGE value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
