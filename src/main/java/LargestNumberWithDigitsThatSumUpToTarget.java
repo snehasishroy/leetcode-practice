@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/
  * <p>
@@ -23,7 +25,7 @@ public class LargestNumberWithDigitsThatSumUpToTarget {
      * The crux to solving the problem is to understand the intermediate steps i.e if cost of using digit 2 is 5 and largest number possible with cost 8 is 982
      * how can i use that to build solution for cost 10? i can append 2 to 982 and get a possible candidate 2982
      */
-    public String largestNumber(int[] cost, int target) {
+    public String largestNumberTopDown(int[] cost, int target) {
         String[] memoization = new String[target + 1];
         return recur(cost, target, memoization); //recurse down from target to 0
     }
@@ -52,6 +54,55 @@ public class LargestNumberWithDigitsThatSumUpToTarget {
             }
         }
         return memoization[target] = res;
+    }
+
+    /**
+     * Approach: Recursion + Top down memoization, similar to above solution but used {index, targetSum} as DP states
+     * Runtime is similar but consumes a lot of memory
+     *
+     * Came up with this solution on my own during virtual contest.
+     */
+    public String largestNumberTopDownAlternate(int[] cost, int target) {
+        String[][] dp = new String[cost.length][target + 1];
+        for (String[] strings : dp) {
+            Arrays.fill(strings, "0");
+        }
+        String res = recur(cost, cost.length - 1, target, dp); //iterate from the largest digit first
+        return res == null ? "0" : res;
+    }
+
+    private String recur(int[] cost, int index, int target, String[][] dp) {
+        if (target < 0) {
+            return null;
+        } else if (target == 0) {
+            return "";
+        } else if (index == -1) {
+            return null;
+        } else if (dp[index][target] == null || !dp[index][target].equals("0")) {
+            return dp[index][target];
+        }
+        //notice we are not incrementing the index after picking as the same index can be picked multiple times
+        String pick = recur(cost, index, target - cost[index], dp);
+        String skip = recur(cost, index - 1, target, dp);
+        if (pick != null) {
+            pick = (index + 1) + pick;
+        }
+        if (pick != null && skip != null) {
+            //find the largest number and return it
+            if (pick.length() > skip.length()) {
+                return dp[index][target] = pick;
+            } else if (pick.length() < skip.length()) {
+                return dp[index][target] = skip;
+            } else {
+                if (pick.compareTo(skip) > 0) {
+                    return dp[index][target] = pick;
+                } else {
+                    return dp[index][target] = skip;
+                }
+            }
+        } else {
+            return dp[index][target] = (pick == null) ? skip : pick;
+        }
     }
 
     /**

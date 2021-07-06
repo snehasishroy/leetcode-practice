@@ -16,8 +16,10 @@
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LargestNumberWithDigitsThatSumUpToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LargestNumberWithDigitsThatSumUpToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LargestNumberWithDigitsThatSumUpToTargetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LargestNumberWithDigitsThatSumUpToTargetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +262,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RunManager" selected="JUnit.LargestNumberWithDigitsThatSumUpToTargetTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -268,13 +270,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcertTickets (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcertTickets" />
-      <module name="leetcode-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,6 +295,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LargestNumberWithDigitsThatSumUpToTargetTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LargestNumberWithDigitsThatSumUpToTargetTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="leetcode-practice" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -320,20 +325,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConcertTickets (1)" />
       <item itemvalue="Application.ConcertTickets" />
       <item itemvalue="Application.MovieFestival" />
       <item itemvalue="Application.RestaurantCustomers" />
       <item itemvalue="Java Scratch.Scratch" />
       <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.LargestNumberWithDigitsThatSumUpToTargetTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LargestNumberWithDigitsThatSumUpToTargetTest.test" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.RestaurantCustomers" />
         <item itemvalue="Application.MovieFestival" />
         <item itemvalue="Application.ConcertTickets" />
-        <item itemvalue="Application.ConcertTickets (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -345,20 +350,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00913" summary="Solve medium and a bit tricky to optimize find whether a string is composed by interleaving substrings from two different string using DP.&#10;&#10;Leveraged prior learning of solving similar string related recursive problems. Tricky thing was to reduce time complexity from n^3 to n^2 by reducing no of states by generating redundant states from remaining states.">
-      <created>1622652700460</created>
-      <option name="number" value="00913" />
-      <option name="presentableId" value="LOCAL-00913" />
-      <option name="project" value="LOCAL" />
-      <updated>1622652700461</updated>
-    </task>
-    <task id="LOCAL-00914" summary="Solve medium problem, find the shortest path to get nearest food in a matrix using BFS.&#10;&#10;Leveraged prior learning of applying BFS to find shortest path in an unweighted cyclic graph.">
-      <created>1622653143594</created>
-      <option name="number" value="00914" />
-      <option name="presentableId" value="LOCAL-00914" />
-      <option name="project" value="LOCAL" />
-      <updated>1622653143594</updated>
     </task>
     <task id="LOCAL-00915" summary="Add approach and related multi BFS problems in RottingOranges">
       <created>1622656141180</created>
@@ -689,7 +680,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625507473072</updated>
     </task>
-    <option name="localTasksCounter" value="962" />
+    <task id="LOCAL-00962" summary="Solve medium problem, find all simple fractions whose denominator &lt;= n using GCD&#10;&#10;Learnings: Calculation of GCD using euclidean algorithm.">
+      <created>1625597563129</created>
+      <option name="number" value="00962" />
+      <option name="presentableId" value="LOCAL-00962" />
+      <option name="project" value="LOCAL" />
+      <updated>1625597563130</updated>
+    </task>
+    <task id="LOCAL-00963" summary="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion.">
+      <created>1625597786224</created>
+      <option name="number" value="00963" />
+      <option name="presentableId" value="LOCAL-00963" />
+      <option name="project" value="LOCAL" />
+      <updated>1625597786224</updated>
+    </task>
+    <option name="localTasksCounter" value="964" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,8 +784,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find the first student which have to replace the chalk given total amount of chalk available and the amount of chalk consumed by each student using modulo arithmetic." />
-    <MESSAGE value="Solve easy problem, find whether we can make all the strings equal by redistributing the characters using greedy.&#10;&#10;Keep track of frequency of all the characters and check whether it's possible to distribute each character evenly between all the strings." />
     <MESSAGE value="Solve medium and extremely tricky problem, find whether it's possible to merge triplets to form target triplets using greedy.&#10;&#10;Trick was to first ignore any triplet with any value &gt; target triplet value. Then with the remaining triplets, check whether the max value of any triplet equals target value." />
     <MESSAGE value="Update JDK to 16 in order to try out new features of Java." />
     <MESSAGE value="Solve medium problem, find all the buildings whose height is strictly less than all the buildings on its right." />
@@ -804,7 +807,9 @@
     <MESSAGE value="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(" />
     <MESSAGE value="Solve easy problem, reshape a given matrix of m*n size to provided r*c size using two pointers." />
     <MESSAGE value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
+    <MESSAGE value="Solve medium problem, find all simple fractions whose denominator &lt;= n using GCD&#10;&#10;Learnings: Calculation of GCD using euclidean algorithm." />
+    <MESSAGE value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
