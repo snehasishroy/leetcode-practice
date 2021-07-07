@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
@@ -348,13 +349,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00917" summary="Solve medium problem, find the shortest distance from nearest 0 for each cell using Multi BFS.&#10;&#10;Tricky thing was to solve this problem using DP in multiple passes. Learnt something new tonight.">
-      <created>1622656765123</created>
-      <option name="number" value="00917" />
-      <option name="presentableId" value="LOCAL-00917" />
-      <option name="project" value="LOCAL" />
-      <updated>1622656765123</updated>
     </task>
     <task id="LOCAL-00918" summary="Solve medium and extremely tricky problem find the largest rectangle after performing horizontal and vertical cuts using greedy. &#10;&#10;Learnings: Reduce the rectangle problems (2D) into 1D and then solve for each dimension independently ie. find the largest horizontal cut and vertical cut which would result in the rectangle with largest area.">
       <created>1622742230807</created>
@@ -692,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625684001149</updated>
     </task>
-    <option name="localTasksCounter" value="966" />
+    <task id="LOCAL-00966" summary="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy.">
+      <created>1625684464115</created>
+      <option name="number" value="00966" />
+      <option name="presentableId" value="LOCAL-00966" />
+      <option name="project" value="LOCAL" />
+      <updated>1625684464115</updated>
+    </task>
+    <option name="localTasksCounter" value="967" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,7 +772,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find all the buildings whose height is strictly less than all the buildings on its right." />
     <MESSAGE value="Solve medium and a bit tricky problem," />
     <MESSAGE value="Solve medium and a bit tricky problem, convert all matchsticks into a valid square by reducing the problem to divide a set into 4 subsets with equal sum using backtracking.&#10;&#10;Leveraged prior learning of PartitionKEqualSumSubsets" />
     <MESSAGE value="Solve medium and a bit tricky problem, check whether we can generate the given string from an empty string by inserting &quot;abc&quot; at any position in the input string.&#10;&#10;Leveraged prior learnings of solving array transformation problems where the trick is to try to generate empty string from given string by deleting &quot;abc&quot; whenever found." />
@@ -796,7 +796,8 @@
     <MESSAGE value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
     <MESSAGE value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
     <MESSAGE value="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit." />
+    <MESSAGE value="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
