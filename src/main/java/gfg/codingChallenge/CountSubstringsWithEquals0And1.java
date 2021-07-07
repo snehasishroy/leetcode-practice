@@ -11,17 +11,12 @@ import java.util.Map;
  * Input:
  * S = "gEEk"
  * Output: 3
- * Explanation: There are 3 substrings of
- * the given string which satisfy the
- * condition. They are "gE", "gEEk" and "Ek".
+ * Explanation: There are 3 substrings of the given string which satisfy the condition. They are "gE", "gEEk" and "Ek".
  *
  * Input:
  * S = "WomensDAY"
  * Output: 4
- * Explanation: There are 4 substrings of
- * the given string which satisfy the
- * condition. They are "Wo", "ensDAY",
- * "nsDA" and "sD"
+ * Explanation: There are 4 substrings of the given string which satisfy the condition. They are "Wo", "ensDAY", "nsDA" and "sD"
  * </pre>
  */
 public class CountSubstringsWithEquals0And1 {

@@ -14,7 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
@@ -349,13 +348,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00916" summary="Add approach and related tricky problem for LargestPlusSign.">
-      <created>1622656626794</created>
-      <option name="number" value="00916" />
-      <option name="presentableId" value="LOCAL-00916" />
-      <option name="project" value="LOCAL" />
-      <updated>1622656626794</updated>
     </task>
     <task id="LOCAL-00917" summary="Solve medium problem, find the shortest distance from nearest 0 for each cell using Multi BFS.&#10;&#10;Tricky thing was to solve this problem using DP in multiple passes. Learnt something new tonight.">
       <created>1622656765123</created>
@@ -693,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625598774553</updated>
     </task>
-    <option name="localTasksCounter" value="965" />
+    <task id="LOCAL-00965" summary="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit.">
+      <created>1625684001149</created>
+      <option name="number" value="00965" />
+      <option name="presentableId" value="LOCAL-00965" />
+      <option name="project" value="LOCAL" />
+      <updated>1625684001149</updated>
+    </task>
+    <option name="localTasksCounter" value="966" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +771,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Update JDK to 16 in order to try out new features of Java." />
     <MESSAGE value="Solve medium problem, find all the buildings whose height is strictly less than all the buildings on its right." />
     <MESSAGE value="Solve medium and a bit tricky problem," />
     <MESSAGE value="Solve medium and a bit tricky problem, convert all matchsticks into a valid square by reducing the problem to divide a set into 4 subsets with equal sum using backtracking.&#10;&#10;Leveraged prior learning of PartitionKEqualSumSubsets" />
@@ -797,7 +795,8 @@
     <MESSAGE value="Solve medium problem, find all simple fractions whose denominator &lt;= n using GCD&#10;&#10;Learnings: Calculation of GCD using euclidean algorithm." />
     <MESSAGE value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
     <MESSAGE value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
+    <MESSAGE value="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
