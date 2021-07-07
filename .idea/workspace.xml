@@ -16,10 +16,9 @@
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LargestNumberWithDigitsThatSumUpToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LargestNumberWithDigitsThatSumUpToTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LargestNumberWithDigitsThatSumUpToTargetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LargestNumberWithDigitsThatSumUpToTargetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,13 +349,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00915" summary="Add approach and related multi BFS problems in RottingOranges">
-      <created>1622656141180</created>
-      <option name="number" value="00915" />
-      <option name="presentableId" value="LOCAL-00915" />
-      <option name="project" value="LOCAL" />
-      <updated>1622656141180</updated>
     </task>
     <task id="LOCAL-00916" summary="Add approach and related tricky problem for LargestPlusSign.">
       <created>1622656626794</created>
@@ -694,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625597786224</updated>
     </task>
-    <option name="localTasksCounter" value="964" />
+    <task id="LOCAL-00964" summary="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states.">
+      <created>1625598774553</created>
+      <option name="number" value="00964" />
+      <option name="presentableId" value="LOCAL-00964" />
+      <option name="project" value="LOCAL" />
+      <updated>1625598774553</updated>
+    </task>
+    <option name="localTasksCounter" value="965" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -754,17 +753,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="medium .* tricky" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
               <option name="TEXT_FILTER_SETTINGS">
                 <TextFilterSettings>
                   <option name="REGEX" value="true" />
@@ -784,7 +772,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and extremely tricky problem, find whether it's possible to merge triplets to form target triplets using greedy.&#10;&#10;Trick was to first ignore any triplet with any value &gt; target triplet value. Then with the remaining triplets, check whether the max value of any triplet equals target value." />
     <MESSAGE value="Update JDK to 16 in order to try out new features of Java." />
     <MESSAGE value="Solve medium problem, find all the buildings whose height is strictly less than all the buildings on its right." />
     <MESSAGE value="Solve medium and a bit tricky problem," />
@@ -809,7 +796,8 @@
     <MESSAGE value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
     <MESSAGE value="Solve medium problem, find all simple fractions whose denominator &lt;= n using GCD&#10;&#10;Learnings: Calculation of GCD using euclidean algorithm." />
     <MESSAGE value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
+    <MESSAGE value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
