@@ -61,6 +61,8 @@ public class LargestNumber {
 
     /**
      * Approach: Use a custom comparator function for sorting
+     *
+     * {@link CustomSortString}
      */
     public String largestNumberSimplified(int[] nums) {
         int n = nums.length;

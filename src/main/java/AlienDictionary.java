@@ -48,7 +48,7 @@ public class AlienDictionary {
      * Also care must be taken to place characters at the end whose order have not been identified i.e {"ae", "afg"}
      * We can only confirm that e < f but we can't say anything about 'a' and 'g' so we can place them anywhere and return it
      * <p>
-     * {@link CourseSchedule2} for related topological sort problem
+     * {@link CourseSchedule2} {@link CustomSortString}
      */
     boolean incorrectOrder;
 

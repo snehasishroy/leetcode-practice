@@ -18,8 +18,9 @@ import java.util.Arrays;
 public class RelativeRanks {
     /**
      * Approach: Use sorting to find relative ranks of each index
-     * <p>
+     *
      * Can use bucket sort to optimize
+     * {@link CustomSortString}
      */
     public String[] findRelativeRanks(int[] nums) {
         int n = nums.length;
@@ -27,7 +28,7 @@ public class RelativeRanks {
         for (int i = 0; i < n; i++) { //I could have used pair but this seemed way cooler
             arr[i] = i;
         }
-        Arrays.sort(arr, (o1, o2) -> Integer.compare(nums[o2], nums[o1])); //this is a bit tricky, using the indices as a key in array to sort
+        Arrays.sort(arr, (o1, o2) -> Integer.compare(nums[o2], nums[o1])); //this is a bit tricky, using the indices as a key in array to sort in descending order
         String[] res = new String[n];
         for (int i = 0; i < n; i++) {
             int idx = arr[i]; //find the index whose rank is i
