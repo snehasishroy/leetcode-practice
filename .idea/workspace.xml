@@ -19,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThreeSumSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreeSumSmaller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,27 +370,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00920" summary="Add solution for medium and extremely tricky problem, find the cheapest flight within k stops from a source to destination using modified djikstra.&#10;&#10;Learnings: This is a weighted graph, so need to apply Djikstra but we have another constraint apart from cost, so maintain another array similar to cost[]. Visit an edge only if it either reduces the cost or reduces the no of hops.">
-      <created>1622824644785</created>
-      <option name="number" value="00920" />
-      <option name="presentableId" value="LOCAL-00920" />
-      <option name="project" value="LOCAL" />
-      <updated>1622824644785</updated>
-    </task>
-    <task id="LOCAL-00921" summary="Add another solutions to hard and extremely tricky problem, find the shortest path in a grid with obstacle eliminations using Djikstra and BFS by maintaining additional state per node.&#10;&#10;Learnings: Since this was a unweighted graph, BFS was the way to go. But we need to maintain additional state per node, so either maintain a nested array with additional dimension or maintain additional array similar to cost array. Visit an edge only if it reduces the cost or reduces no of eliminations. Last but not the least. Maintain a consistent state every node.">
-      <created>1622827056816</created>
-      <option name="number" value="00921" />
-      <option name="presentableId" value="LOCAL-00921" />
-      <option name="project" value="LOCAL" />
-      <updated>1622827056816</updated>
-    </task>
-    <task id="LOCAL-00922" summary="Solve medium find distance between two nodes in a binary tree by finding the LCA.">
-      <created>1622839650386</created>
-      <option name="number" value="00922" />
-      <option name="presentableId" value="LOCAL-00922" />
-      <option name="project" value="LOCAL" />
-      <updated>1622839650386</updated>
-    </task>
     <task id="LOCAL-00923" summary="Solve easy problem, arrange an array into pairs such that sum of minimum of all pairs is maximized using greedy.&#10;&#10;Trick was to organize into pair such that waste is minimum. Since we are interested only in the minimum value of the pair, any number we pair with it would go to waste. So we need to pair it with a value &gt;= ai.">
       <created>1622897231272</created>
       <option name="number" value="00923" />
@@ -712,7 +692,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626287576485</updated>
     </task>
-    <option name="localTasksCounter" value="969" />
+    <task id="LOCAL-00969" summary="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)">
+      <created>1626372462414</created>
+      <option name="number" value="00969" />
+      <option name="presentableId" value="LOCAL-00969" />
+      <option name="project" value="LOCAL" />
+      <updated>1626372462414</updated>
+    </task>
+    <task id="LOCAL-00970" summary="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)">
+      <created>1626372502088</created>
+      <option name="number" value="00970" />
+      <option name="presentableId" value="LOCAL-00970" />
+      <option name="project" value="LOCAL" />
+      <updated>1626372502088</updated>
+    </task>
+    <task id="LOCAL-00971" summary="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)">
+      <created>1626372676442</created>
+      <option name="number" value="00971" />
+      <option name="presentableId" value="LOCAL-00971" />
+      <option name="project" value="LOCAL" />
+      <updated>1626372676442</updated>
+    </task>
+    <option name="localTasksCounter" value="972" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,7 +792,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky problem, check whether we can generate the given string from an empty string by inserting &quot;abc&quot; at any position in the input string.&#10;&#10;Leveraged prior learnings of solving array transformation problems where the trick is to try to generate empty string from given string by deleting &quot;abc&quot; whenever found." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the shortest distance to a target color using DP and Binary Search.&#10;&#10;Leveraged prior learnings of finding shortest distance to a specific character. This problem requires use of a 2D array." />
     <MESSAGE value="Add Airbnb hackerrank interview experiences." />
     <MESSAGE value="Solve medium problem, find the longest subarray of ones that can be made after deleting one element using sliding window.&#10;&#10;Leveraged prior learnings of solving standard sliding window problem where we are asked to increase window until the window becomes invalid. Then try to shrink the window until it becomes valid again. Too much fun :D" />
@@ -805,7 +805,6 @@
     <MESSAGE value="Solve GFG challenge, find the no of substrings with equal no of lowercase and uppercase letters using prefix sum.&#10;&#10;Leveraged prior learning of converting the input into -1 or 1 when there are only two options in input." />
     <MESSAGE value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
     <MESSAGE value="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution." />
-    <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(" />
     <MESSAGE value="Solve easy problem, reshape a given matrix of m*n size to provided r*c size using two pointers." />
     <MESSAGE value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
@@ -816,7 +815,9 @@
     <MESSAGE value="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy." />
     <MESSAGE value="Solve GFG coding challenge problem, find the ceil and floor of a key in a BST using recursion." />
     <MESSAGE value="Solve medium problem, sort a string based on custom rank of each characters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, sort a string based on custom rank of each characters." />
+    <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
+    <MESSAGE value="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

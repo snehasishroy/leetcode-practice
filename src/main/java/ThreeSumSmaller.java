@@ -28,6 +28,8 @@ public class ThreeSumSmaller {
      * <p>
      * Was unable to think about incrementing the low after finding a valid target, to continue finding more tuples
      * TimeComplexity: n^2
+     *
+     * {@link ValidTriangleNumber} for ThreeSumGreater problem
      */
     public int threeSumSmallerOptimized(int[] nums, int target) {
         Arrays.sort(nums);
