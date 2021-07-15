@@ -39,6 +39,8 @@ public class ValidTriangleNumber {
      * If a + b < c, then increment i.
      *
      * Was not able to reduce the time complexity to O(n^2) on my own.
+     *
+     * {@link CountSquareSumTriples}
      */
     public int triangleNumberOptimized(int[] nums) {
         Arrays.sort(nums);
