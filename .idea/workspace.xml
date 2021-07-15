@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
@@ -368,13 +369,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00924" summary="Solve easy problem, find the maximum subarray of size k in an array using sliding window.&#10;&#10;Learnings: Smallest negative double value is -Double.MAX_VALUE or Double.NEGATIVE_INFINITY. Double.MIN_VALUE is actually the smallest positive value. Mind blown! Learnt something new today.">
-      <created>1622898554355</created>
-      <option name="number" value="00924" />
-      <option name="presentableId" value="LOCAL-00924" />
-      <option name="project" value="LOCAL" />
-      <updated>1622898554355</updated>
-    </task>
     <task id="LOCAL-00925" summary="Add approach and related problems in RepeatedStringMatch problem. Find the minimum number of times a string has to be repeated such that another string is a substring of it.">
       <created>1622902351786</created>
       <option name="number" value="00925" />
@@ -711,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626381426213</updated>
     </task>
-    <option name="localTasksCounter" value="973" />
+    <task id="LOCAL-00973" summary="Solve easy problem, find the number of triplets which satisfies a^2 + b^2 = c^2 and a,b,c &lt;= n using brute force.">
+      <created>1626382102408</created>
+      <option name="number" value="00973" />
+      <option name="presentableId" value="LOCAL-00973" />
+      <option name="project" value="LOCAL" />
+      <updated>1626382102408</updated>
+    </task>
+    <option name="localTasksCounter" value="974" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +791,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add Airbnb hackerrank interview experiences." />
     <MESSAGE value="Solve medium problem, find the longest subarray of ones that can be made after deleting one element using sliding window.&#10;&#10;Leveraged prior learnings of solving standard sliding window problem where we are asked to increase window until the window becomes invalid. Then try to shrink the window until it becomes valid again. Too much fun :D" />
     <MESSAGE value="Solve medium problem, find the lowest common ancestor (LCA) for the provided K nodes using recursion.&#10;&#10;Leveraged prior learning of finding LCA for 2 nodes." />
     <MESSAGE value="Solve easy and a bit tricky problem, find the largest odd number that exists as a substring in the given string using greedy.&#10;&#10;Took a lot of time to solve this &quot;easy&quot; problem during the contest." />
@@ -815,7 +815,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)" />
     <MESSAGE value="Solve medium and extremely tricky to optimize, find no of triplets that forms valid triangles using two pointers.&#10;&#10;Two pointers solution was extremely tricky to visualize but the binary search solution was relatively easy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and extremely tricky to optimize, find no of triplets that forms valid triangles using two pointers.&#10;&#10;Two pointers solution was extremely tricky to visualize but the binary search solution was relatively easy." />
+    <MESSAGE value="Solve easy problem, find the number of triplets which satisfies a^2 + b^2 = c^2 and a,b,c &lt;= n using brute force." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve easy problem, find the number of triplets which satisfies a^2 + b^2 = c^2 and a,b,c &lt;= n using brute force." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
