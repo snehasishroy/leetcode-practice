@@ -18,9 +18,10 @@ the code.
 1. If you are interested only in a specific LeetCode problem, then try to directly search the problem url. If I have
    solved it, then you should find the source-code, and the approach to solve the problem. I also try to tag related
    problems, which should help you up-solve problems. I personally find LeetCode suggestions for related problems
-   sub-par.
+   sub-par. You can also search for Premium problems by searching for `*Premium*` in source code.
 
 2. If you only want tricky problems to solve, search for `*tricky*` in git commit messages. I always try to tag the
    problems correctly so that it can be referenced easily.
+   
 3. If you want my learnings from problems, search for `*learnings*` in git commit messages. I always try to add
    learnings in git commit message, if I have learnt something new by solving that problem.
