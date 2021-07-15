@@ -8,6 +8,7 @@ List of [X,Y]:
 1 2
 1 3
 https://www.geeksforgeeks.org/maximum-sum-after-rearranging-the-array-for-k-queries/
+Also see {@link RangeAddition}
 
 Return 40 Reverse -> 9 6 1 1, 9*3 + 6*2 + 1*1 = 40 place 9 on 1, 6 on 2 and 3 on 1
 Public int maxProfit(int[] arr, int[][] ranges) {

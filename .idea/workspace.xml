@@ -15,12 +15,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlienDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LargestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RelativeRanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RelativeRanks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -372,13 +369,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00919" summary="Add medium and extremely tricky problem, find the smallest impossible subset sum that is not possible to be generated from an array using greedy">
-      <created>1622812299485</created>
-      <option name="number" value="00919" />
-      <option name="presentableId" value="LOCAL-00919" />
-      <option name="project" value="LOCAL" />
-      <updated>1622812299485</updated>
-    </task>
     <task id="LOCAL-00920" summary="Add solution for medium and extremely tricky problem, find the cheapest flight within k stops from a source to destination using modified djikstra.&#10;&#10;Learnings: This is a weighted graph, so need to apply Djikstra but we have another constraint apart from cost, so maintain another array similar to cost[]. Visit an edge only if it either reduces the cost or reduces the no of hops.">
       <created>1622824644785</created>
       <option name="number" value="00920" />
@@ -715,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625688904702</updated>
     </task>
-    <option name="localTasksCounter" value="968" />
+    <task id="LOCAL-00968" summary="Solve medium problem, sort a string based on custom rank of each characters.">
+      <created>1626287576485</created>
+      <option name="number" value="00968" />
+      <option name="presentableId" value="LOCAL-00968" />
+      <option name="project" value="LOCAL" />
+      <updated>1626287576485</updated>
+    </task>
+    <option name="localTasksCounter" value="969" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,7 +791,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky problem, convert all matchsticks into a valid square by reducing the problem to divide a set into 4 subsets with equal sum using backtracking.&#10;&#10;Leveraged prior learning of PartitionKEqualSumSubsets" />
     <MESSAGE value="Solve medium and a bit tricky problem, check whether we can generate the given string from an empty string by inserting &quot;abc&quot; at any position in the input string.&#10;&#10;Leveraged prior learnings of solving array transformation problems where the trick is to try to generate empty string from given string by deleting &quot;abc&quot; whenever found." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the shortest distance to a target color using DP and Binary Search.&#10;&#10;Leveraged prior learnings of finding shortest distance to a specific character. This problem requires use of a 2D array." />
     <MESSAGE value="Add Airbnb hackerrank interview experiences." />
@@ -819,7 +815,8 @@
     <MESSAGE value="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit." />
     <MESSAGE value="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy." />
     <MESSAGE value="Solve GFG coding challenge problem, find the ceil and floor of a key in a BST using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve GFG coding challenge problem, find the ceil and floor of a key in a BST using recursion." />
+    <MESSAGE value="Solve medium problem, sort a string based on custom rank of each characters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, sort a string based on custom rank of each characters." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
