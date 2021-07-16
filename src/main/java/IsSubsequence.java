@@ -11,10 +11,14 @@
  * In this scenario, how would you change your code?
  */
 public class IsSubsequence {
-    //for the follow up question, create a map of character present in target to the list of indices they are present in
-    // iterate the subsequence and for each character check if you can find an index in the previous map, with a value just greater (+1)
-    // than the previous character index location in target
-    // https://leetcode.com/problems/is-subsequence/discuss/87302/Binary-search-solution-for-follow-up-with-detailed-comments
+    /**
+     * For the follow up question, create a map of character present in target to the list of indices they are present in
+     * iterate the subsequence and for each character check if you can find an index in the previous map, with a value just greater (+1)
+     * than the previous character index location in target
+     * https://leetcode.com/problems/is-subsequence/discuss/87302/Binary-search-solution-for-follow-up-with-detailed-comments
+     *
+     * {@link LongPressedName}
+     */
     public boolean isSubsequence(String subsequence, String target) {
         if (subsequence.isEmpty()) {
             return true;
@@ -33,6 +37,6 @@ public class IsSubsequence {
                 t_index++;
             }
         }
-        return s_index == subsequence.length();
+        return s_index == subsequence.length(); //verify whether all the characters of subsequence have been matched or not
     }
 }
