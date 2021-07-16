@@ -33,7 +33,7 @@ public class NumberOfMatchingSubsequences {
      * "b" -> {"bb"}, "c" -> {"cd","ce"}  //"a" has been satisfied and there are no words that require a
      * <p>
      * {@link IsSubsequence} {@link MinimumWindowSubsequence} {@link LongestWordInDictionaryByDeleting} {@link SplitArrayIntoConsecutiveSubsequences} {@link StringMatchingInAnArray}
-     * <p>
+     * {@link ShortestWayToFormString}
      * This was asked in my google fourth interview round :)
      */
     public int numMatchingSubseqOptimized(String S, String[] words) {

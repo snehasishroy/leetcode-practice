@@ -17,7 +17,7 @@ public class IsSubsequence {
      * than the previous character index location in target
      * https://leetcode.com/problems/is-subsequence/discuss/87302/Binary-search-solution-for-follow-up-with-detailed-comments
      *
-     * {@link LongPressedName}
+     * {@link LongPressedName} {@link ShortestWayToFormString}
      */
     public boolean isSubsequence(String subsequence, String target) {
         if (subsequence.isEmpty()) {
