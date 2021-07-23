@@ -41,7 +41,7 @@ public class ShortestDistanceToTargetColor {
      * Initially I solved using BinarySearch approach but after seeing runtime distribution graph, realized that my code is not that optimized.
      * Then I thought of this multi pass solution. Happy to think about this approach on my own.
      * <p>
-     * {@link ShortestWordDistance} {@link ShortestDistanceToACharacter} {@link FindTwoNonOverlappingSubarrayWithTargetSum} related problems
+     * {@link ShortestWordDistance} {@link ShortestDistanceToACharacter} {@link FindTwoNonOverlappingSubarrayWithTargetSum} {@link PushDominoes}
      */
     public List<Integer> shortestDistanceColor(int[] colors, int[][] queries) {
         int n = colors.length;
