@@ -31,7 +31,7 @@ public class TilingARectangleWithFewestSquares {
      * If you start placing the largest possible square first, rather than smallest possible square, runtime decreases from 450ms to 5ms
      * Because by placing the largest square first, you prune a lot of branches during recursion
      * <p>
-     * {@link PathWithMaximumGold} {@link SudokuSolver} {@link PartitionKEqualSumSubsets} {@link MinDistanceToTypeUsingTwoFingers} related problems
+     * {@link PathWithMaximumGold} {@link SudokuSolver} {@link PartitionKEqualSumSubsets} {@link MinDistanceToTypeUsingTwoFingers} {@link WordLadder2}
      */
     public int tilingRectangle(int n, int m) {
         int[][] grid = new int[n][m];

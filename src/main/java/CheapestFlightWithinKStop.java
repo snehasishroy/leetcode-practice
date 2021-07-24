@@ -119,6 +119,7 @@ public class CheapestFlightWithinKStop {
      * in order to return the shortest distance to reach a node
      * <p>
      * Also in order to prune the contents of the queue, add a node to the queue only if the distance to reach a node > current distance
+     * {@link WordLadder2}
      */
     public int findCheapestPriceUsingBFS(int n, int[][] flights, int src, int dst, int K) {
         List<List<Pair<Integer, Integer>>> graph = buildGraph(n, flights);
