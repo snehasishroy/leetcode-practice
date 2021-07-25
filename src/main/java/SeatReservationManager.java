@@ -44,7 +44,7 @@ public class SeatReservationManager {
      * Approach: Maintain an ordered set containing all the available seats for reservation. When asked to reserve, remove the
      * smallest element from set in O(logn). Similarly when asked to unreserve, add back the seat in the set in O(logn)
      * <p>
-     * {@link DesignPhoneDirectory} {@link ExamRoom} {@link MaximiseDistanceToClosestPerson}
+     * {@link DesignPhoneDirectory} {@link ExamRoom} {@link MaximiseDistanceToClosestPerson} {@link TheNumberOfTheSmallestUnoccupiedChair}
      */
     public SeatReservationManager(int n) {
         for (int i = 1; i <= n; i++) {

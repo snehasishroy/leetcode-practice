@@ -39,6 +39,8 @@ public class ExamRoom {
      * between two occupied seat by iterating over all occupied seats.
      * <p>
      * Two edge cases to consider: The distance between 0 and first occupied seat and distance between n-1 and last occupied seat.
+     *
+     * {@link TheNumberOfTheSmallestUnoccupiedChair} {@link SeatReservationManager}
      */
     public int seat() {
         if (set.isEmpty()) {
