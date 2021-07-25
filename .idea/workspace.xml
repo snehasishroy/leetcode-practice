@@ -17,10 +17,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExamRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExamRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MeetingsRoom2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MeetingsRoom2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -372,13 +373,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00933" summary="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first.">
-      <created>1623342658092</created>
-      <option name="number" value="00933" />
-      <option name="presentableId" value="LOCAL-00933" />
-      <option name="project" value="LOCAL" />
-      <updated>1623342658092</updated>
     </task>
     <task id="LOCAL-00934" summary="Solve medium and a bit tricky problem, find the max number of characters that you can remove from a string and still a target string remains the subsequence of that string using binary search.&#10;&#10;Leveraged prior learnings of performing binary search when the result lies in a target space. Happy to solve this question in the contest.">
       <created>1623581720555</created>
@@ -716,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627131642486</updated>
     </task>
-    <option name="localTasksCounter" value="982" />
+    <task id="LOCAL-00982" summary="Solve hard problem, reverse linked list in groups of size k using 3 pointers.&#10;&#10;Leveraged prior learnings of reversing an entire linked list using 3 pointers.">
+      <created>1627136043419</created>
+      <option name="number" value="00982" />
+      <option name="presentableId" value="LOCAL-00982" />
+      <option name="project" value="LOCAL" />
+      <updated>1627136043419</updated>
+    </task>
+    <option name="localTasksCounter" value="983" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +796,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve GFG challenge, find the no of substrings with equal no of lowercase and uppercase letters using prefix sum.&#10;&#10;Leveraged prior learning of converting the input into -1 or 1 when there are only two options in input." />
     <MESSAGE value="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(" />
     <MESSAGE value="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the maximum monsters that can be killed by firing a gun every minute using greedy.&#10;&#10;Was not able to solve this during the contest although the problem was simple :(" />
@@ -820,7 +820,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem" />
     <MESSAGE value="Solve easy and a bit tricky to optimize, find whether a string can generated by repeating some of the characters" />
     <MESSAGE value="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE." />
+    <MESSAGE value="Solve hard problem, reverse linked list in groups of size k using 3 pointers.&#10;&#10;Leveraged prior learnings of reversing an entire linked list using 3 pointers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve hard problem, reverse linked list in groups of size k using 3 pointers.&#10;&#10;Leveraged prior learnings of reversing an entire linked list using 3 pointers." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -835,11 +836,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/GeneralizedAbbreviations.java</url>
           <line>33</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CodegodaCity.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
