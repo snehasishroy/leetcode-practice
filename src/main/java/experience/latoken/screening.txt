@@ -1,0 +1,36 @@
+1. Calculate sum of odd numbers between 1 and 1000 using stream
+
+2.
+interface Up {
+    double take(); //may fail with OOM if not read for some time
+}
+interface Down {
+    void push(double d); //may be slow
+}
+static Up up = ..;
+static Down down = ...;
+//you have to put only latest update from UP stream to DOWN stream
+
+volatile double latestPrice = Double.NAN
+main() {
+    Thread producer = () -> {
+        while (true) {
+            latestPrice = up.take();
+        }
+    }
+    Thread consumer = () -> {
+        while (true) {
+            down.push(latestPrice);
+        }
+    }
+    producer.start();
+    consumer.start();
+}
+Was asked to avoid infinite loop in consumer as it will overwhelm consumer. Consumer needs to be notified only if there is some new data.
+Sounds similar to a producer consumer problem, where consumer is interested only in the latest value.
+Was not able to recall how to issue an interrupt to consumer when new data is available.
+
+3. Group all anagrams in a dictionary
+https://leetcode.com/problems/group-anagrams/
+
+Expected and current compensation
