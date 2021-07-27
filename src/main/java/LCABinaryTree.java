@@ -13,7 +13,7 @@ public class LCABinaryTree {
     /**
      * Approach: Recursion
      * <p>
-     * {@link FindDistanceInABinaryTree}
+     * {@link FindDistanceInABinaryTree} {@link LCABinarySearchTree} {@link SmallestCommonRegion}
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return DFS(root, p, q);

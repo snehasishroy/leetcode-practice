@@ -9,6 +9,12 @@ import common.TreeNode;
  * that has both p and q as descendants (where we allow a node to be a descendant of itself).”
  */
 public class LCABinarySearchTree {
+    /**
+     * Approach: Recursion, lca is the first node whose value lies between [p,q]. If p and q are both smaller than current node, lca will be present in the left subtree.
+     * Otherwise it will be present in the right subtree
+     *
+     * {@link SmallestCommonRegion} {@link LCABinaryTree}
+     */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (p.val > q.val) { //handle edge case when p > q
             TreeNode temp = q;
@@ -18,9 +24,6 @@ public class LCABinarySearchTree {
         return search(root, p, q);
     }
 
-    // Approach: lca is the first node whose value lies between [p,q]
-    // if p and q are both smaller than current node, lca will be present in the left subtree
-    // else travel right
     private TreeNode search(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return null;
