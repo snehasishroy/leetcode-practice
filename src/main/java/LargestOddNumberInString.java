@@ -27,6 +27,8 @@ public class LargestOddNumberInString {
      * If we find the rightmost odd digit, and consider the substring from [0, i], this will be the largest odd number possible
      * <p>
      * It's a tricky question, took me around 10 minutes to figure out during the contest :( Lost a lot of ranking.
+     *
+     * {@link LargestNumberAfterMutatingSubstring}
      */
     public String largestOddNumber(String num) {
         for (int i = num.length() - 1; i >= 0; i--) {
