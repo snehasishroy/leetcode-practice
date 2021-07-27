@@ -31,7 +31,7 @@ import java.util.List;
  */
 public class CampusBikes {
     /**
-     * Approach: Calculate distance between all pairs of workers and bikes (n^2) and sort them.
+     * Approach: Assignment problem, Greedy, Calculate distance between all pairs of workers and bikes (n^2) and sort them.
      * Initially I implemented a priority queue solution which gave TLE, then pushed all distances pair to an array and directly sorted it which got AC.
      * During sort take care to resolve conflicts, took a couple of attempts for me to figure it out during my initial implementation.
      * Start assigning bikes greedily and skip already assigned workers/bikes
@@ -39,6 +39,12 @@ public class CampusBikes {
      * Learnings -- Notice the range of the inputs, can use bucket sort if smaller range.
      * <p>
      * TODO Apply Simple Stable Marriage problem i.e Gale–Shapley algorithm to optimize
+     *
+     * This greedy approach is wrong and doesn't work for all test cases.
+     * Raised a bug here https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/4294
+     * Test case that fails for greedy [[0,0],[5,0]], [[4,0],[7,0]]
+     *
+     * {@link MaximumCompatibilityScoreSum} related assignment problem
      */
     public int[] assignBikesBucketSort(int[][] workers, int[][] bikes) {
         List<List<Pair<Integer, Integer>>> distances = new ArrayList<>(2001); //worker index, bike index

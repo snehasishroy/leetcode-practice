@@ -17,12 +17,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CampusBikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CampusBikes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreeSumSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreeSumSmaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidTriangleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidTriangleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,13 +380,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00938" summary="Solve easy problem, find whether we can make all the strings equal by redistributing the characters using greedy.&#10;&#10;Keep track of frequency of all the characters and check whether it's possible to distribute each character evenly between all the strings.">
-      <created>1623582699121</created>
-      <option name="number" value="00938" />
-      <option name="presentableId" value="LOCAL-00938" />
-      <option name="project" value="LOCAL" />
-      <updated>1623582699121</updated>
-    </task>
     <task id="LOCAL-00939" summary="Solve medium and extremely tricky problem, find whether it's possible to merge triplets to form target triplets using greedy.&#10;&#10;Trick was to first ignore any triplet with any value &gt; target triplet value. Then with the remaining triplets, check whether the max value of any triplet equals target value.">
       <created>1623586611853</created>
       <option name="number" value="00939" />
@@ -724,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627394357709</updated>
     </task>
-    <option name="localTasksCounter" value="987" />
+    <task id="LOCAL-00987" summary="Simplify optimized solution in ValidTriangleNumber using the same logic as ThreeSumSmaller">
+      <created>1627395791430</created>
+      <option name="number" value="00987" />
+      <option name="presentableId" value="LOCAL-00987" />
+      <option name="project" value="LOCAL" />
+      <updated>1627395791430</updated>
+    </task>
+    <option name="localTasksCounter" value="988" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,7 +802,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find the sum of each integer in a nested list multiplied by its &quot;weight&quot; using recursion." />
     <MESSAGE value="Solve medium problem, find all simple fractions whose denominator &lt;= n using GCD&#10;&#10;Learnings: Calculation of GCD using euclidean algorithm." />
     <MESSAGE value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
     <MESSAGE value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
@@ -828,7 +826,8 @@
     <MESSAGE value="Solve medium and a bit tricky range interval problem, find the number of the smallest unoccupied chair given the arrival and leave time for all the person using greedy.&#10;&#10;Levered prior learnings of solving range interval problems." />
     <MESSAGE value="Add Lakoten interview experience for Equities trading developer." />
     <MESSAGE value="Add another solution to find LCA of two nodes in a n-ary tree in SmallestCommonRegion using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add another solution to find LCA of two nodes in a n-ary tree in SmallestCommonRegion using recursion." />
+    <MESSAGE value="Simplify optimized solution in ValidTriangleNumber using the same logic as ThreeSumSmaller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplify optimized solution in ValidTriangleNumber using the same logic as ThreeSumSmaller" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
