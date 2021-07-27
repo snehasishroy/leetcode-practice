@@ -17,10 +17,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LargestOddNumberInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LargestOddNumberInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmallestCommonRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmallestCommonRegion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -380,13 +381,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00940" summary="Update JDK to 16 in order to try out new features of Java.">
-      <created>1623657244947</created>
-      <option name="number" value="00940" />
-      <option name="presentableId" value="LOCAL-00940" />
-      <option name="project" value="LOCAL" />
-      <updated>1623657244947</updated>
-    </task>
     <task id="LOCAL-00941" summary="Solve medium problem, find all the buildings whose height is strictly less than all the buildings on its right.">
       <created>1623674018992</created>
       <option name="number" value="00941" />
@@ -723,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627399674813</updated>
     </task>
-    <option name="localTasksCounter" value="989" />
+    <task id="LOCAL-00989" summary="Solve medium problem, find the largest number that can be generating after mutating a substring using greedy.&#10;&#10;Learnings: Leveraged prior learning of solving similar string mutation problem LargestOddNumberInString">
+      <created>1627400265488</created>
+      <option name="number" value="00989" />
+      <option name="presentableId" value="LOCAL-00989" />
+      <option name="project" value="LOCAL" />
+      <updated>1627400265488</updated>
+    </task>
+    <option name="localTasksCounter" value="990" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,7 +803,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion." />
     <MESSAGE value="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states." />
     <MESSAGE value="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit." />
     <MESSAGE value="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy." />
@@ -827,7 +827,8 @@
     <MESSAGE value="Add another solution to find LCA of two nodes in a n-ary tree in SmallestCommonRegion using recursion." />
     <MESSAGE value="Simplify optimized solution in ValidTriangleNumber using the same logic as ThreeSumSmaller" />
     <MESSAGE value="Solve medium assignment problem, find the optimal assignment pattern such that each student gets one mentor and each mentor gets one student using backtracking and bitmasking.&#10;&#10;Also update CampusBikes with the possibility of greedy being a wrong approach to solve the problem.&#10;&#10;Learnings: Initially tried solving the problem using greedy during contest, got WA, switched to backtracking." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium assignment problem, find the optimal assignment pattern such that each student gets one mentor and each mentor gets one student using backtracking and bitmasking.&#10;&#10;Also update CampusBikes with the possibility of greedy being a wrong approach to solve the problem.&#10;&#10;Learnings: Initially tried solving the problem using greedy during contest, got WA, switched to backtracking." />
+    <MESSAGE value="Solve medium problem, find the largest number that can be generating after mutating a substring using greedy.&#10;&#10;Learnings: Leveraged prior learning of solving similar string mutation problem LargestOddNumberInString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the largest number that can be generating after mutating a substring using greedy.&#10;&#10;Learnings: Leveraged prior learning of solving similar string mutation problem LargestOddNumberInString" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -842,11 +843,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/GeneralizedAbbreviations.java</url>
           <line>33</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java</url>
-          <line>148</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

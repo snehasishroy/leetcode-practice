@@ -2,7 +2,7 @@ import java.util.*;
 
 /**
  * <pre>
- * https://leetcode.com/problems/smallest-common-region/
+ * https://leetcode.com/problems/smallest-common-region/ Premium
  *
  * You are given some lists of regions where the first region of each list includes all other regions in that list.
  * Naturally, if a region X contains another region Y then X is bigger than Y. Also by definition a region X contains itself.
