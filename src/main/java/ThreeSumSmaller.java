@@ -40,9 +40,12 @@ public class ThreeSumSmaller {
             while (low < high) {
                 int candidateSum = nums[low] + nums[high];
                 if (candidateSum < targetSum) {
+                    //if we fix nums[i] and nums[low], we can pair it up with any number between [low+1, high] index to get a valid triplet
+                    //this is because the numbers between [low + 1, high] are even smaller than nums[high] so they are guaranteed to satisfy the condition
                     result += (high - low);
                     low++;
                 } else {
+                    //need to reduce current sum, decrement the high pointer
                     high--;
                 }
             }

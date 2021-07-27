@@ -36,7 +36,7 @@ public class ValidTriangleNumber {
      *
      * 2. Alternative is to fix c (k=n-1) and start searching for a (i=0) and b (j=k-1) that satisfies the constraint.
      * If found, all the values between i and j, can be part of the result set. Decrement j and search again.
-     * If a + b < c, then increment i.
+     * If a + b < c, then increment i. This approach is exactly reverse of {@link ThreeSumSmaller} and much simpler then previous approach.
      *
      * Was not able to reduce the time complexity to O(n^2) on my own.
      *
@@ -45,19 +45,18 @@ public class ValidTriangleNumber {
     public int triangleNumberOptimized(int[] nums) {
         Arrays.sort(nums);
         int res = 0, n = nums.length;
-        for (int i = 0; i < n - 2; i++) {
-            int k = i + 2;
-            for (int j = i + 1; j < n - 1; j++) {
-                //find the largest k that satisfies num[i] + num[j] > num[k]
-                //once found, do not reset it back to j+1
-                //5, 10, 11, 12, 13, 14, 15, 16
-                //5 + 10 > 15 (first loop will break at i = 0, j = 1, k = 6)
-                //now when we increment j = 2, it's guaranteed that 5 + 11 > 15, so is 5 + 12, 5 + 13, 5 + 14
-                //so we can restart our search from the previous k itself
-                while (k < n && nums[i] + nums[j] > nums[k]) {
-                    k++;
+        for (int c = n - 1; c >= 0; c--) {
+            int a = 0, b = c - 1;
+            while (a < b) {
+                if (nums[a] + nums[b] > nums[c]) {
+                    //if we fix b and c, all numbers between a and b index can be paired to give a valid triplet.
+                    res += (b - a);
+                    //now this b is done, reduce b
+                    b--;
+                } else {
+                    //sum is <= target, need to increase the current sum, increment a
+                    a++;
                 }
-                res += Math.max(k - 1 - j, 0);
             }
         }
         return res;
