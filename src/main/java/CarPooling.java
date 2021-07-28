@@ -26,6 +26,8 @@ public class CarPooling {
      * <p>
      * I tried to solve MeetingsRoom2 after this problem, couldn't solve it without using counting sort as used in this approach because I could not
      * understand why the author used PriorityQueue instead of just comparing it with the previous interval
+     *
+     * {@link DescribeThePainting} {@link EmployeeFreeTime}
      */
     public boolean carPooling(int[][] trips, int capacity) {
         int[] count = new int[1001]; //max distance of the trip is 1000

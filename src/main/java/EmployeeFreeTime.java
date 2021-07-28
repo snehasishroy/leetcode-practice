@@ -29,7 +29,7 @@ import java.util.TreeMap;
  */
 public class EmployeeFreeTime {
     /**
-     * Approach: Line sweep algorithm by incrementing/decrementing a counter similar to {@link MeetingsRoom2}
+     * Approach: Prefix sum, Range Interval Problem, Line sweep algorithm by incrementing/decrementing a counter similar to {@link MeetingsRoom2}
      * {@link RemoveInterval}
      * <p>
      * I have to see the hint to implement the problem, Initially I was thinking of maintaining a list of free time for each employee and then
@@ -39,6 +39,8 @@ public class EmployeeFreeTime {
      * RunTime can be reduced if you use priority queue and push all the intervals to pq, and merge overlapping intervals.
      * Check if the previous interval and current interval are disjoint, if yes, the gap is the free interval
      * Refer to the priority queue solution in {@link IntervalListIntersections}
+     *
+     * {@link DescribeThePainting}
      */
     public List<Interval> employeeFreeTimeUsingLineSweep(List<List<Interval>> schedule) {
         TreeMap<Integer, Integer> map = new TreeMap<>(); //mapping of time -> counter (+1, -1)

@@ -24,12 +24,12 @@
  */
 public class RangeAddition {
     /**
-     * Approach: Prefix Sum, Instead of incrementing all the values within a range, just increment the start index with inc/decrement value
+     * Approach: Prefix Sum, Range Interval Problem, Instead of incrementing all the values within a range, just increment the start index with inc/decrement value
      * and the (end + 1) index with negative of inc/decrement value.
      * <p>
      * When asked to print the modified array, just do a prefix sum
      * <p>
-     * {@link experience.directi.DSA.txt} related problem
+     * {@link experience.directi.DSA.txt} {@link DescribeThePainting}
      */
     public int[] getModifiedArray(int length, int[][] updates) {
         int[] arr = new int[length];

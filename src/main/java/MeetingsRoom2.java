@@ -26,7 +26,7 @@ public class MeetingsRoom2 {
      * end time of previous interval e.g {2,8},{5,15},{10,20}
      * we need to remove all intervals ending before the start of current interval, we can do that by priority queue.
      * <p>
-     * {@link CarPooling} {@link TheNumberOfTheSmallestUnoccupiedChair}
+     * {@link CarPooling} {@link TheNumberOfTheSmallestUnoccupiedChair} {@link DescribeThePainting}
      */
     public int minMeetingRoomsPriorityQueue(int[][] intervals) {
         Arrays.sort(intervals, (o1, o2) -> Integer.compare(o1[0], o2[0])); //sort the array based on start time
