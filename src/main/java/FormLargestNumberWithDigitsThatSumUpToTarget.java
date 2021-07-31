@@ -16,7 +16,7 @@ import java.util.Arrays;
  * Output: "7772"
  * Explanation:  The cost to paint the digit '7' is 2, and the digit '2' is 3. Then cost("7772") = 2*3+ 3*1 = 9. You could also paint "977", but "7772" is the largest number.
  */
-public class LargestNumberWithDigitsThatSumUpToTarget {
+public class FormLargestNumberWithDigitsThatSumUpToTarget {
 
     String res = "0";
 
@@ -60,6 +60,11 @@ public class LargestNumberWithDigitsThatSumUpToTarget {
      * Approach: Recursion + Top down memoization, similar to above solution but used {index, targetSum} as DP states
      * Runtime is similar but consumes a lot of memory
      *
+     * After thinking a while, I realized that this again comes under DP State optimization, as the index does not really play a big part here.
+     * Because an index can be used multiple times, and even if a target sum is achievable by multiple combinations of indices, if we choose the
+     * largest digit first and if we memoize the string achieved, even if we get the same target sum again, it will be achieved by smaller numbers.
+     * Only caveat is that after picking a digit, we need to restart the process back from the greatest digit ie. last index.
+     *
      * Came up with this solution on my own during virtual contest.
      */
     public String largestNumberTopDownAlternate(int[] cost, int target) {
@@ -81,7 +86,7 @@ public class LargestNumberWithDigitsThatSumUpToTarget {
         } else if (dp[index][target] == null || !dp[index][target].equals("0")) {
             return dp[index][target];
         }
-        //notice we are not incrementing the index after picking as the same index can be picked multiple times
+        //notice we are not decrementing the index after picking as the same index can be picked multiple times
         String pick = recur(cost, index, target - cost[index], dp);
         String skip = recur(cost, index - 1, target, dp);
         if (pick != null) {
@@ -102,6 +107,48 @@ public class LargestNumberWithDigitsThatSumUpToTarget {
             }
         } else {
             return dp[index][target] = (pick == null) ? skip : pick;
+        }
+    }
+
+    /**
+     * Approach: DP state optimization of previous approach
+     */
+    public String largestNumberStateOptimization(int[] cost, int target) {
+        String[] dp = new String[target + 1];
+        Arrays.fill(dp, "0");
+        String res = recur(cost, cost.length - 1, target, dp);
+        return res == null ? "0" : res;
+    }
+
+    private String recur(int[] cost, int index, int target, String[]dp) {
+        if (target < 0) {
+            return null;
+        } else if (target == 0) {
+            return "";
+        } else if (index == -1) {
+            return null;
+        } else if (dp[target] == null || !dp[target].equals("0")) {
+            return dp[target];
+        }
+        String pick = recur(cost, cost.length - 1, target - cost[index], dp); //restart the search from the largest digit i.e. last index
+        String skip = recur(cost, index - 1, target, dp);
+        if (pick != null) {
+            pick = (index + 1) + pick;
+        }
+        if (pick != null && skip != null) {
+            if (pick.length() > skip.length()) {
+                return dp[target] = pick;
+            } else if (pick.length() < skip.length()) {
+                return dp[target] = skip;
+            } else {
+                if (pick.compareTo(skip) > 0) {
+                    return dp[target] = pick;
+                } else {
+                    return dp[target] = skip;
+                }
+            }
+        } else {
+            return dp[target] = (pick == null) ? skip : pick;
         }
     }
 
