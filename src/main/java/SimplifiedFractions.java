@@ -43,6 +43,11 @@ public class SimplifiedFractions {
         return res;
     }
 
+    /**
+     * Refer https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm
+     *
+     * Recursive function is : GCD(a, b) = GCD(b, remainder)
+     */
     private int gcd(int a, int b) {
         if (b == 0)
             return a;
