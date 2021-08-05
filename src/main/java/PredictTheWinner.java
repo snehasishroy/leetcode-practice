@@ -68,7 +68,7 @@ public class PredictTheWinner {
      * <p>
      * Reference video https://www.youtube.com/watch?v=CZdG83-Nt0s
      */
-    public boolean PredictTheWinner(int[] nums) {
+    public boolean PredictTheWinnerMaxiMin(int[] nums) {
         if (nums.length <= 2) {
             return true;
         } else {
@@ -97,26 +97,26 @@ public class PredictTheWinner {
                 return 0;
             }
         } else if (memoized[left][right] != -1) { //IMPORTANT TO NOTE HERE THAT WE ARE NOT MEMOIZING THE findMax because
-            //a combination of (left, right) is unique to each player and it can't happen that two players have the same state
+            //a combination of (left, right) is unique to each player, and it can't happen that two players have the same state
             //In StoneGame2 we have to memoize the boolean flag as well, because two players can share the same state, hence flag was
             //necessary to disambiguate
             return memoized[left][right];
         } else {
             if (findMax) {
                 //first player can either pick from the left or from the right and get the remaining score from recursion
-                int pickLeft = nums[left] + recur(nums, left + 1, right, !findMax, memoized);
-                int pickRight = nums[right] + recur(nums, left, right - 1, !findMax, memoized);
+                int pickLeft = nums[left] + recur(nums, left + 1, right, false, memoized);
+                int pickRight = nums[right] + recur(nums, left, right - 1, false, memoized);
                 return memoized[left][right] = Math.max(pickLeft, pickRight);
             } else {
                 //we are interested only in the score of the first player, so if you look closely, we have not added the nums[left] or nums[right]
-                //to the recursion result, because if we would have added it, then it would have become the second player score
+                //to the recursion result, because if we had added it, then it would have become the second player score
                 //which would have cascaded incorrect result to the parent
                 //instead assume that the second player will make the correct choice and hence first player will be left with the minimum of the choices left
-                //ie. second player will either pick from the left, then first player will be left with (left + 1, right)
+                //i.e. second player will either pick from the left, then first player will be left with (left + 1, right)
                 //or from the right, then first player will be left with (left, right - 1)
                 //since we know that second player will play optimally and will try to maximise his result, first player will get only the minimum result
                 //hence we need to take min of the choices
-                return memoized[left][right] = Math.min(recur(nums, left + 1, right, !findMax, memoized), recur(nums, left, right - 1, !findMax, memoized));
+                return memoized[left][right] = Math.min(recur(nums, left + 1, right, true, memoized), recur(nums, left, right - 1, true, memoized));
             }
         }
     }

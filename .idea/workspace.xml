@@ -19,13 +19,13 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LargestNumberWithDigitsThatSumUpToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormLargestNumberWithDigitsThatSumUpToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PredictTheWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PredictTheWinner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LargestNumberWithDigitsThatSumUpToTargetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FormLargestNumberWithDigitsThatSumUpToTargetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +215,6 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/cses/SortingAndSearching/RestaurantCustomers.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/BusyDay.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/AgojiPrint.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/FindTheBestHotel.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/CriticalConnectionsInNetwork.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" root0="FORCE_HIGHLIGHTING" />
@@ -313,8 +312,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodegodaCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodegodaCity" />
+    <configuration name="MaximumSumCircularSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumSumCircularSubarray" />
       <module name="leetcode-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -364,8 +363,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodegodaCity" />
       <item itemvalue="Application.RestaurantCustomers" />
+      <item itemvalue="Application.MaximumSumCircularSubarray" />
       <item itemvalue="Java Scratch.Scratch" />
       <item itemvalue="Java Scratch.Scratch (1)" />
       <item itemvalue="JUnit.Unnamed" />
@@ -374,10 +373,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Application.MaximumSumCircularSubarray" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
         <item itemvalue="Application.RestaurantCustomers" />
-        <item itemvalue="Application.CodegodaCity" />
       </list>
     </recent_temporary>
   </component>
@@ -389,13 +388,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00944" summary="Solve medium and a bit tricky problem, check whether we can generate the given string from an empty string by inserting &quot;abc&quot; at any position in the input string.&#10;&#10;Leveraged prior learnings of solving array transformation problems where the trick is to try to generate empty string from given string by deleting &quot;abc&quot; whenever found.">
-      <created>1623955935430</created>
-      <option name="number" value="00944" />
-      <option name="presentableId" value="LOCAL-00944" />
-      <option name="project" value="LOCAL" />
-      <updated>1623955935431</updated>
     </task>
     <task id="LOCAL-00945" summary="Solve medium and a bit tricky problem, find the shortest distance to a target color using DP and Binary Search.&#10;&#10;Leveraged prior learnings of finding shortest distance to a specific character. This problem requires use of a 2D array.">
       <created>1623959988229</created>
@@ -733,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627725755341</updated>
     </task>
-    <option name="localTasksCounter" value="993" />
+    <task id="LOCAL-00993" summary="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget">
+      <created>1627738658128</created>
+      <option name="number" value="00993" />
+      <option name="presentableId" value="LOCAL-00993" />
+      <option name="project" value="LOCAL" />
+      <updated>1627738658128</updated>
+    </task>
+    <option name="localTasksCounter" value="994" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,7 +811,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve GFG coding challenge problem, find the ceil and floor of a key in a BST using recursion." />
     <MESSAGE value="Solve medium problem, sort a string based on custom rank of each characters." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)" />
@@ -837,7 +835,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem, given various intervals and a color, find the final sum of the colors at each index using prefix sum." />
     <MESSAGE value="Solve medium problem, find the total sum of all the keys that starts with a prefix using Trie.&#10;&#10;Leveraged prior learning of storing useful information directly in trie node." />
     <MESSAGE value="Add hint to understand Euclidean algorithm to find GCD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add hint to understand Euclidean algorithm to find GCD" />
+    <MESSAGE value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -852,6 +851,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/GeneralizedAbbreviations.java</url>
           <line>33</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
