@@ -37,13 +37,17 @@ public class CampusBikes {
      * Start assigning bikes greedily and skip already assigned workers/bikes
      * <p>
      * Learnings -- Notice the range of the inputs, can use bucket sort if smaller range.
-     * <p>
-     * TODO Apply Simple Stable Marriage problem i.e Gale–Shapley algorithm to optimize
      *
-     * This greedy approach is wrong and doesn't work for all test cases.
+     * TODO Apply Simple Stable Marriage problem i.e Gale–Shapley algorithm to optimize
+     * <p>
+     * <strike>
+     * This greedy approach is wrong and doesn't work for all test cases
      * Raised a bug here https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/4294
      * Test case that fails for greedy [[0,0],[5,0]], [[4,0],[7,0]]
-     *
+     * </strike>
+     * This problem does not ask to do the assignment in the shortest cost possible, it just asks to assign the bike to the nearest worker possible.
+     * So this greedy solution works fine but if it had been the other case, we would have needed a different algorithm.
+     * <p>
      * {@link MaximumCompatibilityScoreSum} related assignment problem
      */
     public int[] assignBikesBucketSort(int[][] workers, int[][] bikes) {

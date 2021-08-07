@@ -17,13 +17,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CampusBikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CampusBikes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PredictTheWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PredictTheWinner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
@@ -363,20 +363,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RestaurantCustomers" />
       <item itemvalue="Application.MaximumSumCircularSubarray" />
-      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Application.RestaurantCustomers" />
       <item itemvalue="Java Scratch.Scratch (1)" />
+      <item itemvalue="Java Scratch.Scratch" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Java Scratch.Scratch (1)" />
-        <item itemvalue="Application.MaximumSumCircularSubarray" />
         <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
         <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
         <item itemvalue="Application.RestaurantCustomers" />
+        <item itemvalue="Application.MaximumSumCircularSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -388,13 +388,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00945" summary="Solve medium and a bit tricky problem, find the shortest distance to a target color using DP and Binary Search.&#10;&#10;Leveraged prior learnings of finding shortest distance to a specific character. This problem requires use of a 2D array.">
-      <created>1623959988229</created>
-      <option name="number" value="00945" />
-      <option name="presentableId" value="LOCAL-00945" />
-      <option name="project" value="LOCAL" />
-      <updated>1623959988229</updated>
     </task>
     <task id="LOCAL-00946" summary="Add Airbnb hackerrank interview experiences.">
       <created>1623961145853</created>
@@ -732,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627738658128</updated>
     </task>
-    <option name="localTasksCounter" value="994" />
+    <task id="LOCAL-00994" summary="Fix typo and simplify code in PredictTheWinner">
+      <created>1628166081162</created>
+      <option name="number" value="00994" />
+      <option name="presentableId" value="LOCAL-00994" />
+      <option name="project" value="LOCAL" />
+      <updated>1628166081165</updated>
+    </task>
+    <option name="localTasksCounter" value="995" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +811,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, sort a string based on custom rank of each characters." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the min no of boats to save people using greedy.&#10;&#10;Trick was to leverage 2 pointers properly and to reduce the wastage by assigning the higher weight people first." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)" />
     <MESSAGE value="Solve medium and extremely tricky to optimize, find no of triplets that forms valid triangles using two pointers.&#10;&#10;Two pointers solution was extremely tricky to visualize but the binary search solution was relatively easy." />
@@ -836,7 +835,8 @@
     <MESSAGE value="Solve medium problem, find the total sum of all the keys that starts with a prefix using Trie.&#10;&#10;Leveraged prior learning of storing useful information directly in trie node." />
     <MESSAGE value="Add hint to understand Euclidean algorithm to find GCD" />
     <MESSAGE value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
+    <MESSAGE value="Fix typo and simplify code in PredictTheWinner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix typo and simplify code in PredictTheWinner" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
