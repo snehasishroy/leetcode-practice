@@ -390,13 +390,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00948" summary="Solve medium problem, find the lowest common ancestor (LCA) for the provided K nodes using recursion.&#10;&#10;Leveraged prior learning of finding LCA for 2 nodes.">
-      <created>1624127228602</created>
-      <option name="number" value="00948" />
-      <option name="presentableId" value="LOCAL-00948" />
-      <option name="project" value="LOCAL" />
-      <updated>1624127228602</updated>
-    </task>
     <task id="LOCAL-00949" summary="Solve easy and a bit tricky problem, find the largest odd number that exists as a substring in the given string using greedy.&#10;&#10;Took a lot of time to solve this &quot;easy&quot; problem during the contest.">
       <created>1624189204804</created>
       <option name="number" value="00949" />
@@ -733,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628342662137</updated>
     </task>
-    <option name="localTasksCounter" value="997" />
+    <task id="LOCAL-00997" summary="Solve easy problem, count no of negative numbers in a row and column sorted matrix using two pointers.">
+      <created>1628531312661</created>
+      <option name="number" value="00997" />
+      <option name="presentableId" value="LOCAL-00997" />
+      <option name="project" value="LOCAL" />
+      <updated>1628531312661</updated>
+    </task>
+    <option name="localTasksCounter" value="998" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,7 +812,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and extremely tricky to optimize, find no of triplets that forms valid triangles using two pointers.&#10;&#10;Two pointers solution was extremely tricky to visualize but the binary search solution was relatively easy." />
     <MESSAGE value="Solve easy problem, find the number of triplets which satisfies a^2 + b^2 = c^2 and a,b,c &lt;= n using brute force." />
     <MESSAGE value="Solve medium problem, find the nearest exit from an entrance in maze using BFS." />
     <MESSAGE value="Solve hard and a bit tricky problem, find the minimum cost to reach a target node in a specified amount of time using modified Djikstra&#10;&#10;Leveraged prior learnings from solving CheapestFlightWithinKStop" />
@@ -837,7 +836,8 @@
     <MESSAGE value="Fix typo and simplify code in PredictTheWinner" />
     <MESSAGE value="Add comment on why greedy approach works in CampusBikes" />
     <MESSAGE value="Solve medium problem, perform level order traversal on a n-ary tree using BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, perform level order traversal on a n-ary tree using BFS" />
+    <MESSAGE value="Solve easy problem, count no of negative numbers in a row and column sorted matrix using two pointers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve easy problem, count no of negative numbers in a row and column sorted matrix using two pointers." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
