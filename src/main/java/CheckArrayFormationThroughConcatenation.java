@@ -38,7 +38,7 @@ public class CheckArrayFormationThroughConcatenation {
      * ie. no partial piece allowed. Since the values are distinct, it works !
      * Initially I coded for partial piece using map of integer to linkedlist, got WA :D
      * <p>
-     * {@link NumberOfMatchingSubsequences}
+     * {@link NumberOfMatchingSubsequences} {@link CheckIfStringIsAPrefixOfArray}
      */
     public boolean canFormArray(int[] arr, int[][] pieces) {
         Map<Integer, int[]> map = new HashMap<>(); //value of the first piece -> entire piece
