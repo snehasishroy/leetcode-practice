@@ -28,13 +28,14 @@ public class FindInMountainArray {
      * Then apply binary search in either of the increasing partition or decreasing partition
      * Take care of the indices using binary search
      * <p>
-     * {@link FindPeakElement} {@link FindMinimumInRotatedSortedArray2} related problem
+     * {@link FindPeakElement} {@link FindMinimumInRotatedSortedArray2} {@link SuperEggDrop}
      */
     public int findInMountainArray(int target, MountainArray arr) {
         int low = 0, high = arr.length() - 1, res = 0;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (mid == 0 || arr.get(mid) > arr.get(mid - 1)) {
+            //alternatively we could have compared mid with mid-1 and mid+1 but comparing with mid+1 would be redundant as comparing with the adjacent left element would suffice
+            if (mid == 0 || arr.get(mid) > arr.get(mid - 1)) { //if (mid == 0 || mid == arr.length() - 1 || (arr.get(mid) > arr.get(mid - 1) && arr.get(mid) < arr.get(mid + 1))) {
                 res = mid;
                 low = mid + 1;
             } else {
