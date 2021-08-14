@@ -16,6 +16,8 @@ import java.util.Arrays;
 public class PerfectSquares {
     /**
      * This is similar to the optimized code in {@link WordBreak1}
+     *
+     * {@link EggDropWith2EggsAndNFloors}
      */
     public int numSquaresUsingBFS(int n) {
         int[] dp = new int[n + 1];

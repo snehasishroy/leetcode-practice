@@ -21,7 +21,7 @@
  */
 public class BulbSwitcher {
     /**
-     * Approach: Constraints indicates either a o(1) solution or o(logn) solution
+     * Approach: Maths, Constraints indicates either a o(1) solution or o(logn) solution
      * Only the indices that are flipped odd number of times would still be on
      * The number which has odd number of divisors would be such indices
      * Such numbers are perfect squares e.g. 16 {1,2,4,8,16}
@@ -29,7 +29,7 @@ public class BulbSwitcher {
      * Primes have even no of divisors e.g. 7 {1,7}
      * Other non primes have divisors in pairs e.g 15 {1,3,5,15}
      * <p>
-     * {@link MinimumNumberOfKConsecutiveBitFlips}
+     * {@link MinimumNumberOfKConsecutiveBitFlips} {@link EggDropWith2EggsAndNFloors}
      */
     public int bulbSwitch(int n) {
         return (int) Math.sqrt(n);
