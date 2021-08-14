@@ -26,12 +26,13 @@ public class FindPeakElement {
      * <p>
      * Find a peak in 2D array is trickier and uses divide and conquer https://www.geeksforgeeks.org/find-peak-element-2d-array/
      * {@link SearchInRotatedSortedArray} {@link FindMinimumInRotatedSortedArray2} {@link FindKClosestElements}
+     * {@link FindInMountainArray} {@link PeakIndexInMountainArray}
      */
     public int findPeakElement(int[] nums) {
         int low = 0, high = nums.length - 1, ans = 0;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (mid == 0 || nums[mid - 1] < nums[mid]) { //special case for 0th index
+            if (mid == 0 || nums[mid - 1] < nums[mid]) { //special case for 0th index -- we are on an increasing path and since the array contains peak, if we go right we will find one
                 ans = mid;
                 low = mid + 1;
             } else {

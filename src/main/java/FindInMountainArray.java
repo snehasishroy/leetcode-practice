@@ -28,7 +28,7 @@ public class FindInMountainArray {
      * Then apply binary search in either of the increasing partition or decreasing partition
      * Take care of the indices using binary search
      * <p>
-     * {@link FindPeakElement} {@link FindMinimumInRotatedSortedArray2} {@link SuperEggDrop}
+     * {@link FindPeakElement} {@link FindMinimumInRotatedSortedArray2} {@link SuperEggDrop} {@link PeakIndexInMountainArray}
      */
     public int findInMountainArray(int target, MountainArray arr) {
         int low = 0, high = arr.length() - 1, res = 0;
