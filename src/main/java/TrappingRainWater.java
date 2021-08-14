@@ -13,6 +13,8 @@ public class TrappingRainWater {
      * Approach: Keep track of the max from the left and right in an array, Gives linear time complexity
      * <p>
      * Can also be done using stack solution similar to {@link LargestRectangleInHistogram}
+     *
+     * {@link FlipStringToMonotoneIncreasing}
      */
     public int trapOptimized(int[] height) {
         int n = height.length;
