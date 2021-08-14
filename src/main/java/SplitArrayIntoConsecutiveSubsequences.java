@@ -36,7 +36,7 @@ public class SplitArrayIntoConsecutiveSubsequences {
      * and other which returns how many subsequences require a specific value
      * <p>
      * {@link DivideArrayInSetsOfKConsecutiveNumbers} {@link SmallestSubsequenceOfDistinctCharacters} {@link TaskScheduler}
-     * {@link ReorganizeString} {@link NumberOfMatchingSubsequences} related greedy problems
+     * {@link ReorganizeString} {@link NumberOfMatchingSubsequences} {@link ArrayOfDoubledPairs} related greedy problems
      */
     public boolean isPossible(int[] nums) {
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
