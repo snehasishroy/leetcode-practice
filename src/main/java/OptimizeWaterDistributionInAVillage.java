@@ -41,6 +41,7 @@ public class OptimizeWaterDistributionInAVillage {
      * <p>
      * To see kruskal implementation for MST which is based on union find algorithm, refer to {@link ConnectingCitiesWithMinCost}
      * {@link MinimumCostToConnectSticks} related minimum spanning tree problem
+     * {@link LastDayWhereYouCanStillCross} related hidden node problem
      */
     public int minCostToSupplyWater(int n, int[] wells, int[][] pipes) {
         boolean[] visited = new boolean[n + 1];

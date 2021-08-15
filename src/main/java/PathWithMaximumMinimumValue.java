@@ -51,7 +51,7 @@ public class PathWithMaximumMinimumValue {
      * {@link LongestIncreasingPathInMatrix} does not suffer from cycles as it asks for strictly increasing path, a child node
      * can't ever go back to its parent node
      * <p>
-     * {@link SplitArrayLargestSum} {@link PacificAtlanticWaterFlow}
+     * {@link SplitArrayLargestSum} {@link PacificAtlanticWaterFlow} {@link LastDayWhereYouCanStillCross}
      */
     public int maximumMinimumPathGreedy(int[][] A) {
         //pq of row,col sorted on decreasing values in A

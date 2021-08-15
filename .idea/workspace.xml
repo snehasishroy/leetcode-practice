@@ -18,17 +18,20 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindInMountainArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OptimizeWaterDistributionInAVillage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OptimizeWaterDistributionInAVillage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PaintHouses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PaintHouses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PathWithMaximumMinimumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PathWithMaximumMinimumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SwimInRisingWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SwimInRisingWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,13 +395,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00956" summary="Solve easy but tricky problem in GFG Challenge, find two coprime integers in a range of [L,R].&#10;&#10;Trick was to return a pair of consecutive number as even/odd numbers are always coprime. Missed the edge case of 1,1 during the contest :(">
-      <created>1624892326906</created>
-      <option name="number" value="00956" />
-      <option name="presentableId" value="LOCAL-00956" />
-      <option name="project" value="LOCAL" />
-      <updated>1624892326906</updated>
-    </task>
     <task id="LOCAL-00957" summary="Solve easy but extremely tricky to optimize, given a dictionary, find whether a string is present as a substring in another word using trie or rolling hash.&#10;&#10;Trie implementation is very tricky and leverages reverse indexes similar to previously solved PrefixAndSuffixSearch. Was not able to think of trie solution.">
       <created>1625338955179</created>
       <option name="number" value="00957" />
@@ -735,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628959105776</updated>
     </task>
-    <option name="localTasksCounter" value="1005" />
+    <task id="LOCAL-01005" summary="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search.">
+      <created>1628959855432</created>
+      <option name="number" value="01005" />
+      <option name="presentableId" value="LOCAL-01005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628959855432</updated>
+    </task>
+    <option name="localTasksCounter" value="1006" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +817,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve easy and a bit tricky to optimize, find whether a string can generated by repeating some of the characters" />
     <MESSAGE value="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE." />
     <MESSAGE value="Solve hard problem, reverse linked list in groups of size k using 3 pointers.&#10;&#10;Leveraged prior learnings of reversing an entire linked list using 3 pointers." />
     <MESSAGE value="Update priority queue solution for classical problem MeetingsRoom2" />
@@ -839,7 +841,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem, find the min cost to flip a string to monotone increasing using two pass solution." />
     <MESSAGE value="Solve medium and a bit tricky maths problem, find the min steps required to find the first floor at which an egg breaks given 2 eggs and N floors using maths or DP" />
     <MESSAGE value="Solve hard and extremely tricky to optimize, find the first floor at which egg breaks given n floors and k eggs using DP + Binary Search&#10;&#10;Learnings: DP State Optimization problem as the trivial DP gives TLE." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve hard and extremely tricky to optimize, find the first floor at which egg breaks given n floors and k eggs using DP + Binary Search&#10;&#10;Learnings: DP State Optimization problem as the trivial DP gives TLE." />
+    <MESSAGE value="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
