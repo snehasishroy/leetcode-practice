@@ -3,7 +3,7 @@ import java.util.Map;
 
 /**
  * <pre>
- * https://leetcode.com/problems/first-unique-number/
+ * https://leetcode.com/problems/first-unique-number/ Premium
  *
  * You have a queue of integers, you need to retrieve the first unique integer in the queue.
  *
