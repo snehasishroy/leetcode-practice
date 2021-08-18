@@ -26,7 +26,7 @@ public class DeleteNodesAndReturnForest {
      * If a current node is a potential root candidate, check if it needs to be deleted, if not then add it to result list
      * if yes, then it's children are potential root candidates.
      *
-     * {@link BinaryTreePruning}
+     * {@link BinaryTreePruning} {@link CheckIfAStringIsValidSequenceFromRootToLeavesPathInABinaryTree}
      */
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         HashSet<Integer> hashSet = new HashSet<>();

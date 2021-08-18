@@ -4,23 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/binary-tree-paths/
- * <p>
- * Given a binary tree, return all root-to-leaf paths.
- * <p>
- * Input:
  * <pre>
+ * https://leetcode.com/problems/binary-tree-paths/
+ *
+ * Given a binary tree, return all root-to-leaf paths.
+ *
+ * Input:
  *    1
  *  /   \
  * 2     3
  *  \
  *   5
- * </pre>
  * Output: ["1->2->5", "1->3"]
- * <p>
+ *
  * Explanation: All root-to-leaf paths are: 1->2->5, 1->3
+ * </pre>
  */
 public class RootToLeafPaths {
+    /**
+     * Approach: Backtracking, Use recursion to generate all root to leaf paths.
+     *
+     * {@link CheckIfAStringIsValidSequenceFromRootToLeavesPathInABinaryTree}
+     */
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new ArrayList<>();
         DFS(root, res, new StringBuilder());
@@ -42,7 +47,7 @@ public class RootToLeafPaths {
                 DFS(root.left, result, curPath);
                 DFS(root.right, result, curPath);
             }
-            //this node is done, remove this node from the current path
+            //this node is done, remove this node from the current path by backtracking
             curPath.setLength(length);
         }
     }
