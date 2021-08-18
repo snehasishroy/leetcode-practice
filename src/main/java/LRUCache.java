@@ -34,6 +34,11 @@ public class LRUCache {
     //when removing the least recently used node, remove the node before dummyTail
     Map<Integer, DLL> map;
 
+    /**
+     * Approach: Doubly Linked List + HashMap, Maintain dummy head and tail pointers for easy pointer manipulation
+     *
+     * {@link FirstUniqueNumber}
+     */
     public LRUCache(int capacity) {
         map = new HashMap<>(capacity);
         dummyHead = new DLL(-1, -1);

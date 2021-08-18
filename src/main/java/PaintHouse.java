@@ -1,5 +1,5 @@
 /**
- * https://leetcode.com/problems/paint-house/
+ * https://leetcode.com/problems/paint-house/ Premium
  * <p>
  * There is a row of n houses, where each house can be painted one of three colors: red, blue, or green.
  * The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
@@ -13,12 +13,14 @@
  * Explanation: Paint house 0 into blue, paint house 1 into green, paint house 2 into blue.
  * Minimum cost: 2 + 5 + 3 = 10.
  */
-public class PaintHouses {
+public class PaintHouse {
     /**
      * Approach: Need to try all the combinations and store the minimum of all of them at any index
      * Took me a while to convert the recursive solution into top down memoization
      * I remembered ericto's hint to solve DP problem, what information is required at each state.
      * Here we need the house index and color being painted at that index.
+     *
+     * {@link PaintFence} {@link PaintHouse2}
      */
     public int minCost(int[][] costs) {
         int n = costs.length;

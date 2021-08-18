@@ -39,6 +39,8 @@ public class MaxFrequencyStack {
      * Use priority queue to solve in logn time per operation.
      * Priority should be based on the size of no of occurrences, more occurrences should be given high priority
      * In case of similar no of occurrences, priority should be based on the timestamp of last occurrence of the current key.
+     *
+     * {@link MaxFrequencyStackHashMap} {@link MaxFrequencyStackTreeMap} {@link LRUCache} {@link FirstUniqueNumber}
      */
     PriorityQueue<Pair<Integer, List<Integer>>> pq = new PriorityQueue<>((o1, o2) -> { //key -> list of occurrence timestamps
         if (o1.getValue().size() == o2.getValue().size()) {
