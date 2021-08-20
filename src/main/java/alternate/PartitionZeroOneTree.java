@@ -27,6 +27,8 @@ public class PartitionZeroOneTree {
      * Approach: In case of partitioning problems, there is a clear pattern. Get the total first, then do a post order traversal
      * and let parent decide whether to cut the edge of left/right subtree
      * Here the criteria to cut the edge is if the subtree contains all the ones and no zeroes and vice versa
+     *
+     * {@link MaximumProductOfSplittedBinaryTree}
      */
     public int solve(Tree root) {
         Count total = iterate(root);
