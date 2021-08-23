@@ -24,6 +24,8 @@ public class AllPathsFromSourceToTarget {
      * Approach: Backtracking, perform DFS at each path, keeping track of nodes visited so far
      * TimeComplexity: 2^N * N, Everytime we add a node to the graph, number of paths would double, very similar to how
      * subsequences are counted {@link DistinctSubsequences}
+     *
+     * {@link NumberOfWaysToArriveAtADestination} follow up question
      */
     public List<List<Integer>> allPathsSourceTarget(int[][] edges) {
         List<List<Integer>> graph = buildGraph(edges);
