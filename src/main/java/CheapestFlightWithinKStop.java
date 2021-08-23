@@ -79,7 +79,7 @@ public class CheapestFlightWithinKStop {
      *        5 /
      *        d
      * </pre>
-     * {@link ShortestPathInGridWithObstacleElimination} {@link MinimumCostToReachDestinationInTime}
+     * {@link ShortestPathInGridWithObstacleElimination} {@link MinimumCostToReachDestinationInTime} {@link NumberOfWaysToArriveAtADestination}
      */
     public int findCheapestPriceUsingDjikstraOptimized(int n, int[][] flights, int src, int dst, int K) {
         List<List<Pair<Integer, Integer>>> graph = buildGraph(n, flights); //pair of city, cost

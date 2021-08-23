@@ -25,6 +25,8 @@ public class NumberOfLongestIncreasingSubsequences {
      * Then I thought why we need to store all the length, we are interested only in the longest increasing subsequence length, so why not store only that.
      * <p>
      * Took me some time to implement it but happy to implement it on my own.
+     *
+     * {@link NumberOfWaysToArriveAtADestination} similar problem but on graphs
      */
     public int findNumberOfLIS(int[] nums) {
         int[] lis = new int[nums.length]; //max length of lis ending at index i

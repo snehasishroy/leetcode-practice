@@ -15,9 +15,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium problem,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AllPathsFromSourceToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllPathsFromSourceToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheapestFlightWithinKStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheapestFlightWithinKStop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
@@ -26,8 +28,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfLongestIncreasingSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfLongestIncreasingSubsequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
     </list>
@@ -304,7 +308,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch (1)">
+  <component name="RunManager" selected="Java Scratch.Dummy">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -312,13 +316,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumSumCircularSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumSumCircularSubarray" />
-      <module name="leetcode-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,6 +347,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dummy" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dummy" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
@@ -367,20 +371,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaximumSumCircularSubarray" />
       <item itemvalue="Application.RestaurantCustomers" />
       <item itemvalue="Java Scratch.Scratch (1)" />
       <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Java Scratch.Dummy" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Dummy" />
         <item itemvalue="Java Scratch.Scratch (1)" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
         <item itemvalue="Application.RestaurantCustomers" />
-        <item itemvalue="Application.MaximumSumCircularSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -392,13 +396,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00962" summary="Solve medium problem, find all simple fractions whose denominator &lt;= n using GCD&#10;&#10;Learnings: Calculation of GCD using euclidean algorithm.">
-      <created>1625597563129</created>
-      <option name="number" value="00962" />
-      <option name="presentableId" value="LOCAL-00962" />
-      <option name="project" value="LOCAL" />
-      <updated>1625597563130</updated>
     </task>
     <task id="LOCAL-00963" summary="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion.">
       <created>1625597786224</created>
@@ -736,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629462328357</updated>
     </task>
-    <option name="localTasksCounter" value="1011" />
+    <task id="LOCAL-01011" summary="Solve medium problem, find the sum of the provided intervals given that you can update the value at any index using segment tree&#10;&#10;Learnings: Finally implemented segment tree after brushing it aside for so long.">
+      <created>1629476374147</created>
+      <option name="number" value="01011" />
+      <option name="presentableId" value="LOCAL-01011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629476374147</updated>
+    </task>
+    <option name="localTasksCounter" value="1012" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +819,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add another solution to find LCA of two nodes in a n-ary tree in SmallestCommonRegion using recursion." />
     <MESSAGE value="Simplify optimized solution in ValidTriangleNumber using the same logic as ThreeSumSmaller" />
     <MESSAGE value="Solve medium assignment problem, find the optimal assignment pattern such that each student gets one mentor and each mentor gets one student using backtracking and bitmasking.&#10;&#10;Also update CampusBikes with the possibility of greedy being a wrong approach to solve the problem.&#10;&#10;Learnings: Initially tried solving the problem using greedy during contest, got WA, switched to backtracking." />
     <MESSAGE value="Solve medium problem, find the largest number that can be generating after mutating a substring using greedy.&#10;&#10;Learnings: Leveraged prior learning of solving similar string mutation problem LargestOddNumberInString" />
@@ -840,7 +843,8 @@
     <MESSAGE value="Solve medium problem, check whether a root to leaf path exists in a binary tree that matches the target path using recursion." />
     <MESSAGE value="Add premium tag to FirstUniqueNumber" />
     <MESSAGE value="Solve medium problem, find the maximum product achieved by splitting a binary tree into two subtrees by removing one edge using DP&#10;&#10;Leveraged prior learnings of solving tree partitioning problems that the decision to cut should be made by the parent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the maximum product achieved by splitting a binary tree into two subtrees by removing one edge using DP&#10;&#10;Leveraged prior learnings of solving tree partitioning problems that the decision to cut should be made by the parent." />
+    <MESSAGE value="Solve medium problem, find the sum of the provided intervals given that you can update the value at any index using segment tree&#10;&#10;Learnings: Finally implemented segment tree after brushing it aside for so long." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the sum of the provided intervals given that you can update the value at any index using segment tree&#10;&#10;Learnings: Finally implemented segment tree after brushing it aside for so long." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
