@@ -13,13 +13,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium problem,">
+    <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AllPathsFromSourceToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllPathsFromSourceToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheapestFlightWithinKStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheapestFlightWithinKStop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
@@ -28,12 +26,16 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumPointsToObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfLongestIncreasingSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfLongestIncreasingSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidateStackSequences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,20 +399,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00963" summary="Solve medium problem, find all the nodes in a tree whose value is greater than all the nodes lying in the path from root using recursion.">
-      <created>1625597786224</created>
-      <option name="number" value="00963" />
-      <option name="presentableId" value="LOCAL-00963" />
-      <option name="project" value="LOCAL" />
-      <updated>1625597786224</updated>
-    </task>
-    <task id="LOCAL-00964" summary="Update LargestNumberWithDigitsThatSumUpToTarget with another recursive top down solution that uses {index, targetSum} as DP states.">
-      <created>1625598774553</created>
-      <option name="number" value="00964" />
-      <option name="presentableId" value="LOCAL-00964" />
-      <option name="project" value="LOCAL" />
-      <updated>1625598774553</updated>
-    </task>
     <task id="LOCAL-00965" summary="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit.">
       <created>1625684001149</created>
       <option name="number" value="00965" />
@@ -740,7 +728,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629476374147</updated>
     </task>
-    <option name="localTasksCounter" value="1012" />
+    <task id="LOCAL-01012" summary="Solve medium and extremely tricky problem, find the number of ways to reach a target node in minimum cost in a graph using djikstra + dp&#10;&#10;Learnings: DP on graphs are quite tricky problems. Need to carefully handle overflow cases.">
+      <created>1629735255484</created>
+      <option name="number" value="01012" />
+      <option name="presentableId" value="LOCAL-01012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629735255484</updated>
+    </task>
+    <task id="LOCAL-01013" summary="Add related problem in AllPathsFromSourceToTarget">
+      <created>1629735303275</created>
+      <option name="number" value="01013" />
+      <option name="presentableId" value="LOCAL-01013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629735303275</updated>
+    </task>
+    <option name="localTasksCounter" value="1014" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,8 +821,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Simplify optimized solution in ValidTriangleNumber using the same logic as ThreeSumSmaller" />
-    <MESSAGE value="Solve medium assignment problem, find the optimal assignment pattern such that each student gets one mentor and each mentor gets one student using backtracking and bitmasking.&#10;&#10;Also update CampusBikes with the possibility of greedy being a wrong approach to solve the problem.&#10;&#10;Learnings: Initially tried solving the problem using greedy during contest, got WA, switched to backtracking." />
     <MESSAGE value="Solve medium problem, find the largest number that can be generating after mutating a substring using greedy.&#10;&#10;Learnings: Leveraged prior learning of solving similar string mutation problem LargestOddNumberInString" />
     <MESSAGE value="Solve medium and a bit tricky problem, given various intervals and a color, find the final sum of the colors at each index using prefix sum." />
     <MESSAGE value="Solve medium problem, find the total sum of all the keys that starts with a prefix using Trie.&#10;&#10;Leveraged prior learning of storing useful information directly in trie node." />
@@ -844,7 +844,9 @@
     <MESSAGE value="Add premium tag to FirstUniqueNumber" />
     <MESSAGE value="Solve medium problem, find the maximum product achieved by splitting a binary tree into two subtrees by removing one edge using DP&#10;&#10;Leveraged prior learnings of solving tree partitioning problems that the decision to cut should be made by the parent." />
     <MESSAGE value="Solve medium problem, find the sum of the provided intervals given that you can update the value at any index using segment tree&#10;&#10;Learnings: Finally implemented segment tree after brushing it aside for so long." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the sum of the provided intervals given that you can update the value at any index using segment tree&#10;&#10;Learnings: Finally implemented segment tree after brushing it aside for so long." />
+    <MESSAGE value="Solve medium and extremely tricky problem, find the number of ways to reach a target node in minimum cost in a graph using djikstra + dp&#10;&#10;Learnings: DP on graphs are quite tricky problems. Need to carefully handle overflow cases." />
+    <MESSAGE value="Add related problem in AllPathsFromSourceToTarget" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add related problem in AllPathsFromSourceToTarget" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

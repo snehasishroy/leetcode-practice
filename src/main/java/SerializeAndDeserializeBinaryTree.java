@@ -12,13 +12,15 @@ import java.util.Arrays;
 public class SerializeAndDeserializeBinaryTree {
     /**
      * My initial approach: Encodes a tree to a single string. root (size of left subtree) left subtree (size of right subtree) right subtree
-     * <p>
+     *
      * This is a simpler solution: To store like root, root.left.val, root.left.left.val, root.left.right.val, root.right.val, null, null
-     * While decoding we could simply split the string by , and create a queue from the resultant array
+     * While decoding we could simply split the string by ',' and create a queue from the resultant array
      * Queue will help to recursively fix the root element, then recurse for left & right respectively assigning the head of the queue
      * to the root.
-     * <p>
+     *
      * Similar question was asked during Joveo Onsite interview.
+     *
+     * {@link VerifyPreorderSerializationOfBinaryTree} {@link SerializeAndDeserializeBST}
      */
     public String serialize(TreeNode root) {
         if (root == null) {

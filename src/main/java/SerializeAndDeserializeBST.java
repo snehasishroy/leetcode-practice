@@ -17,6 +17,8 @@ import java.util.Arrays;
 public class SerializeAndDeserializeBST {
     /**
      * Approach: Encode tree by doing preorder traversal, No need of encoding null because we are going to leverage the bounds property of BST
+     *
+     * {@link SerializeAndDeserializeBinaryTree} {@link VerifyPreorderSerializationOfBinaryTree}
      */
     public String serialize(TreeNode root) {
         if (root == null) {

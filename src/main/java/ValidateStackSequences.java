@@ -23,6 +23,8 @@ public class ValidateStackSequences {
      * If yes, keep popping until the constraint satisfies
      * <p>
      * Very happy to solve it on my own
+     *
+     * {@link VerifyPreorderSerializationOfBinaryTree}
      */
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         if (pushed.length == 0 && popped.length == 0) {
