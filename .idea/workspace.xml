@@ -31,11 +31,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidateStackSequences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,10 +304,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hackercup2021" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Dummy">
+  <component name="RunManager" selected="Application.GoldMine">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -322,19 +320,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantCustomers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cses.SortingAndSearching.RestaurantCustomers" />
+    <configuration name="ConsistencyA1Verification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.ConsistencyA1Verification" />
       <module name="leetcode-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormLargestNumberWithDigitsThatSumUpToTargetTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsistencyA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.ConsistencyA2" />
       <module name="leetcode-practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormLargestNumberWithDigitsThatSumUpToTargetTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.GoldMine" />
+      <module name="leetcode-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XAndO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.XAndO" />
+      <module name="leetcode-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,37 +365,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <module name="leetcode-practice" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
-      <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.RestaurantCustomers" />
-      <item itemvalue="Java Scratch.Scratch (1)" />
-      <item itemvalue="Java Scratch.Scratch" />
       <item itemvalue="Java Scratch.Dummy" />
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
+      <item itemvalue="Application.ConsistencyA2" />
+      <item itemvalue="Application.ConsistencyA1Verification" />
+      <item itemvalue="Application.XAndO" />
+      <item itemvalue="Application.GoldMine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoldMine" />
         <item itemvalue="Java Scratch.Dummy" />
-        <item itemvalue="Java Scratch.Scratch (1)" />
-        <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="JUnit.FormLargestNumberWithDigitsThatSumUpToTargetTest.test" />
-        <item itemvalue="Application.RestaurantCustomers" />
+        <item itemvalue="Application.XAndO" />
+        <item itemvalue="Application.ConsistencyA2" />
+        <item itemvalue="Application.ConsistencyA1Verification" />
       </list>
     </recent_temporary>
   </component>
@@ -398,13 +391,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00965" summary="Solve tricky problem, find the number of pairs whose bitwise and is greater than bitwise xor by keeping track of highest one bit.">
-      <created>1625684001149</created>
-      <option name="number" value="00965" />
-      <option name="presentableId" value="LOCAL-00965" />
-      <option name="project" value="LOCAL" />
-      <updated>1625684001149</updated>
     </task>
     <task id="LOCAL-00966" summary="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy.">
       <created>1625684464115</created>
@@ -742,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629735303275</updated>
     </task>
-    <option name="localTasksCounter" value="1014" />
+    <task id="LOCAL-01014" summary="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion.">
+      <created>1629986077970</created>
+      <option name="number" value="01014" />
+      <option name="presentableId" value="LOCAL-01014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629986077970</updated>
+    </task>
+    <option name="localTasksCounter" value="1015" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -821,7 +814,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find the largest number that can be generating after mutating a substring using greedy.&#10;&#10;Learnings: Leveraged prior learning of solving similar string mutation problem LargestOddNumberInString" />
     <MESSAGE value="Solve medium and a bit tricky problem, given various intervals and a color, find the final sum of the colors at each index using prefix sum." />
     <MESSAGE value="Solve medium problem, find the total sum of all the keys that starts with a prefix using Trie.&#10;&#10;Leveraged prior learning of storing useful information directly in trie node." />
     <MESSAGE value="Add hint to understand Euclidean algorithm to find GCD" />
@@ -846,7 +838,8 @@
     <MESSAGE value="Solve medium problem, find the sum of the provided intervals given that you can update the value at any index using segment tree&#10;&#10;Learnings: Finally implemented segment tree after brushing it aside for so long." />
     <MESSAGE value="Solve medium and extremely tricky problem, find the number of ways to reach a target node in minimum cost in a graph using djikstra + dp&#10;&#10;Learnings: DP on graphs are quite tricky problems. Need to carefully handle overflow cases." />
     <MESSAGE value="Add related problem in AllPathsFromSourceToTarget" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add related problem in AllPathsFromSourceToTarget" />
+    <MESSAGE value="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -867,9 +860,14 @@
           <line>67</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackercup2021/XAndO.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.StackOverflowError" package="java.lang" />
-          <option name="timeStamp" value="9" />
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="14" />
         </breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -26,7 +26,7 @@ public class EqualTreePartition {
      * In my initial implementation I returned 0 for null nodes, but since tree can contain subtree sum as 0, it incorrectly considered it as a valid partition
      * Hence returned null sum for null nodes
      * <p>
-     * {@link alternate.PartitionZeroOneTree} for similar partition related problem
+     * {@link alternate.PartitionZeroOneTree} {@link MaximumProductOfSplittedBinaryTree} for similar partition related problem
      */
     public boolean checkEqualTree(TreeNode root) {
         int totalSum = findTotalSum(root);

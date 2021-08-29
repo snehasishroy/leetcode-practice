@@ -34,7 +34,7 @@ public class MaximumProductOfSplittedBinaryTree {
      * Approach: DP on trees, Keep track of the total sum of nodes in the tree. At each parent try to cut its child and keep track of the
      * maximum product achieved so far.
      *
-     * {@link alternate.PartitionZeroOneTree}
+     * {@link alternate.PartitionZeroOneTree} {@link EqualTreePartition}
      */
     public int maxProduct(TreeNode root) {
         int totalSum = sum(root);
