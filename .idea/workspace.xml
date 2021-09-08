@@ -28,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PerformStringShifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PerformStringShifts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
@@ -393,13 +392,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00967" summary="Solve GFG coding challenge problem, find the ceil and floor of a key in a BST using recursion.">
-      <created>1625688904701</created>
-      <option name="number" value="00967" />
-      <option name="presentableId" value="LOCAL-00967" />
-      <option name="project" value="LOCAL" />
-      <updated>1625688904702</updated>
-    </task>
     <task id="LOCAL-00968" summary="Solve medium problem, sort a string based on custom rank of each characters.">
       <created>1626287576485</created>
       <option name="number" value="00968" />
@@ -736,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630224645657</updated>
     </task>
-    <option name="localTasksCounter" value="1016" />
+    <task id="LOCAL-01016" summary="Solve medium problem, given a shift array and a string, return a transformed string where the first (i+1) characters are shifted shift[i] times using suffix sum.">
+      <created>1631110103102</created>
+      <option name="number" value="01016" />
+      <option name="presentableId" value="LOCAL-01016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631110103102</updated>
+    </task>
+    <option name="localTasksCounter" value="1017" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +814,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find the total sum of all the keys that starts with a prefix using Trie.&#10;&#10;Leveraged prior learning of storing useful information directly in trie node." />
     <MESSAGE value="Add hint to understand Euclidean algorithm to find GCD" />
     <MESSAGE value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
     <MESSAGE value="Fix typo and simplify code in PredictTheWinner" />
@@ -840,7 +838,8 @@
     <MESSAGE value="Add related problem in AllPathsFromSourceToTarget" />
     <MESSAGE value="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion." />
     <MESSAGE value="Add related tree partitioning problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add related tree partitioning problems" />
+    <MESSAGE value="Solve medium problem, given a shift array and a string, return a transformed string where the first (i+1) characters are shifted shift[i] times using suffix sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, given a shift array and a string, return a transformed string where the first (i+1) characters are shifted shift[i] times using suffix sum." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
