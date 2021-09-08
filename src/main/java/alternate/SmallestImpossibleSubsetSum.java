@@ -21,5 +21,7 @@ public class SmallestImpossibleSubsetSum {
             if A[i] > candidate: return candidate
    else: candidate = candidate + A[i]
             return candidate
+
+    Related Problem: {@link PatchingArray}
     */
 }
