@@ -27,6 +27,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NestedListWeightSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NestedListWeightSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
@@ -392,13 +393,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00968" summary="Solve medium problem, sort a string based on custom rank of each characters.">
-      <created>1626287576485</created>
-      <option name="number" value="00968" />
-      <option name="presentableId" value="LOCAL-00968" />
-      <option name="project" value="LOCAL" />
-      <updated>1626287576485</updated>
-    </task>
     <task id="LOCAL-00969" summary="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)">
       <created>1626372462414</created>
       <option name="number" value="00969" />
@@ -735,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631110103102</updated>
     </task>
-    <option name="localTasksCounter" value="1017" />
+    <task id="LOCAL-01017" summary="Solve medium problem, find the maximum average value of a subtree of a binary tree using postorder traversal.">
+      <created>1631110534482</created>
+      <option name="number" value="01017" />
+      <option name="presentableId" value="LOCAL-01017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631110534482</updated>
+    </task>
+    <option name="localTasksCounter" value="1018" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add hint to understand Euclidean algorithm to find GCD" />
     <MESSAGE value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
     <MESSAGE value="Fix typo and simplify code in PredictTheWinner" />
     <MESSAGE value="Add comment on why greedy approach works in CampusBikes" />
@@ -839,7 +839,8 @@
     <MESSAGE value="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion." />
     <MESSAGE value="Add related tree partitioning problems" />
     <MESSAGE value="Solve medium problem, given a shift array and a string, return a transformed string where the first (i+1) characters are shifted shift[i] times using suffix sum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, given a shift array and a string, return a transformed string where the first (i+1) characters are shifted shift[i] times using suffix sum." />
+    <MESSAGE value="Solve medium problem, find the maximum average value of a subtree of a binary tree using postorder traversal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, find the maximum average value of a subtree of a binary tree using postorder traversal." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

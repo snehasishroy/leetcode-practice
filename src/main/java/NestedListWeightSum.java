@@ -16,6 +16,12 @@ import java.util.List;
  * Explanation: One 1 at depth 1, one 4 at depth 2, and one 6 at depth 3; 1 + 4*2 + 6*3 = 27.
  */
 public class NestedListWeightSum {
+
+    /**
+     * Approach: DFS
+     *
+     * {@link ArrayNesting}
+     */
     public int depthSum(List<NestedInteger> nestedList) {
         return DFS(nestedList, 1);
     }
@@ -26,6 +32,7 @@ public class NestedListWeightSum {
             if (!child.getList().isEmpty()) { //If current child is a list, recur
                 res += DFS(child.getList(), depth + 1);
             } else if (child.getInteger() != null) { //else if current child is an int, directly evaluate the weight
+                //don't use simple else statement, because test cases contains inputs like [[],[],[]]
                 res += (child.getInteger() * depth);
             }
         }
