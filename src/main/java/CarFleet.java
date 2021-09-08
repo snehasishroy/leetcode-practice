@@ -40,7 +40,8 @@ public class CarFleet {
      * <p>
      * I was able to come up with the idea that it requires sorting by position but I was not able to come up with the idea of how to count fleets
      * <p>
-     * {@link FurthestBuildingYouCanReach} {@link MergeTripletsToFormTargetTriplet} {@link EliminateMaximumNumberOfMonsters} related tricky greedy problems
+     * {@link FurthestBuildingYouCanReach} {@link MergeTripletsToFormTargetTriplet} {@link EliminateMaximumNumberOfMonsters}
+     * {@link ReconstructA2RowBinaryMatrix} related tricky greedy problems
      */
     public int carFleet(int target, int[] position, int[] speed) {
         int n = position.length;
