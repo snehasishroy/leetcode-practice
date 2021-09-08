@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PerformStringShifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PerformStringShifts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
@@ -366,12 +367,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Java Scratch.Dummy" />
-      <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="Application.ConsistencyA2" />
       <item itemvalue="Application.ConsistencyA1Verification" />
       <item itemvalue="Application.XAndO" />
       <item itemvalue="Application.GoldMine" />
+      <item itemvalue="Java Scratch.Dummy" />
+      <item itemvalue="JUnit.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -391,13 +392,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00966" summary="Solve GFG Coding challenge problem, find whether it's possible to equally distribute drinks among people using greedy.">
-      <created>1625684464115</created>
-      <option name="number" value="00966" />
-      <option name="presentableId" value="LOCAL-00966" />
-      <option name="project" value="LOCAL" />
-      <updated>1625684464115</updated>
     </task>
     <task id="LOCAL-00967" summary="Solve GFG coding challenge problem, find the ceil and floor of a key in a BST using recursion.">
       <created>1625688904701</created>
@@ -735,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629986077970</updated>
     </task>
-    <option name="localTasksCounter" value="1015" />
+    <task id="LOCAL-01015" summary="Add related tree partitioning problems">
+      <created>1630224645657</created>
+      <option name="number" value="01015" />
+      <option name="presentableId" value="LOCAL-01015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630224645657</updated>
+    </task>
+    <option name="localTasksCounter" value="1016" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky problem, given various intervals and a color, find the final sum of the colors at each index using prefix sum." />
     <MESSAGE value="Solve medium problem, find the total sum of all the keys that starts with a prefix using Trie.&#10;&#10;Leveraged prior learning of storing useful information directly in trie node." />
     <MESSAGE value="Add hint to understand Euclidean algorithm to find GCD" />
     <MESSAGE value="Add DP State optimization solution for FormLargestNumberWithDigitsThatSumUpToTarget" />
@@ -839,7 +839,8 @@
     <MESSAGE value="Solve medium and extremely tricky problem, find the number of ways to reach a target node in minimum cost in a graph using djikstra + dp&#10;&#10;Learnings: DP on graphs are quite tricky problems. Need to carefully handle overflow cases." />
     <MESSAGE value="Add related problem in AllPathsFromSourceToTarget" />
     <MESSAGE value="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion." />
+    <MESSAGE value="Add related tree partitioning problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add related tree partitioning problems" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -36,7 +36,7 @@ public class PerformStringShifts {
      * Approach: Instead of actually shifting the strings every operation, keep track of accumulated string shifts and shift only once at the end.
      * Need to carefully handle modulo operation (negative value as well)
      * <p>
-     * {@link MakeSumDivisibleByP}
+     * {@link MakeSumDivisibleByP} {@link ShiftingLetters}
      */
     public String stringShift(String s, int[][] shifts) {
         int requiredShifts = 0;
