@@ -29,7 +29,7 @@ public class BestMeetingPoint {
      * <p>
      * To find the median, quick select can be used whose average complexity is O(n) instead of sorting O(nlogn)
      * <p>
-     * {@link ShortestDistanceFromAllBuildings} {@link ShortestBridge} {@link MinimumMovesToEqualArrayElements2}
+     * {@link ShortestDistanceFromAllBuildings} {@link ShortestBridge} {@link MinimumMovesToEqualArrayElements2} {@link RangeAddition2}
      */
     public int minTotalDistance(int[][] grid) {
         //separately calculate median of x and y by separately storing x and y indices

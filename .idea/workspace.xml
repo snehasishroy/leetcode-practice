@@ -16,9 +16,10 @@
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium problem, verify whether the provided string can represent a valid preorder traversal of a binary tree using recursion.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BestMeetingPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestMeetingPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarFleet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarFleet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmployeeFreeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmployeeFreeTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
@@ -30,7 +31,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RangeAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeAddition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RectangleOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RectangleOverlap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
@@ -393,13 +396,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00971" summary="Solve medium and a bit tricky problem, find the array after incrementing the [start, end] with a value, multiple times using tricky prefix sum logic.&#10;&#10;Happy to quickly solve this on my own. Initially was thinking towards a segment tree solution but then realized it's just a medium problem :)">
-      <created>1626372676442</created>
-      <option name="number" value="00971" />
-      <option name="presentableId" value="LOCAL-00971" />
-      <option name="project" value="LOCAL" />
-      <updated>1626372676442</updated>
-    </task>
     <task id="LOCAL-00972" summary="Solve medium and extremely tricky to optimize, find no of triplets that forms valid triangles using two pointers.&#10;&#10;Two pointers solution was extremely tricky to visualize but the binary search solution was relatively easy.">
       <created>1626381426213</created>
       <option name="number" value="00972" />
@@ -736,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631114700916</updated>
     </task>
-    <option name="localTasksCounter" value="1020" />
+    <task id="LOCAL-01020" summary="Solve medium and extremely tricky problem, find the longest uncommon subsequence between a list of strings such that the subsequence exists only in one string and not in any other string using greedy and brute force.">
+      <created>1631120073542</created>
+      <option name="number" value="01020" />
+      <option name="presentableId" value="LOCAL-01020" />
+      <option name="project" value="LOCAL" />
+      <updated>1631120073542</updated>
+    </task>
+    <option name="localTasksCounter" value="1021" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +818,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add comment on why greedy approach works in CampusBikes" />
     <MESSAGE value="Solve medium problem, perform level order traversal on a n-ary tree using BFS" />
     <MESSAGE value="Solve easy problem, count no of negative numbers in a row and column sorted matrix using two pointers." />
     <MESSAGE value="Solve medium and a bit tricky to understand problem, find whether a move is legal or not by iterating in 8 directions.&#10;&#10;Was unable to solve this question in the contest as I wrongly assumed that the endpoint must end on the border :(" />
@@ -840,7 +842,8 @@
     <MESSAGE value="Solve medium problem, find the maximum average value of a subtree of a binary tree using postorder traversal." />
     <MESSAGE value="Solve medium and a bit tricky problem, given an array find the longest length of set of elements where s[i] = {a[i], a[a[i]], a[a[a[i]]], ...} using dp on graphs" />
     <MESSAGE value="Solve medium and extremely tricky problem, reconstruct a 2 row binary matrix given the sum of elements of first row and last row along with the column sum of each column using greedy.&#10;&#10;Learnings: In greedy reconstruction problems, try to first fill what is known and does not have any choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and extremely tricky problem, reconstruct a 2 row binary matrix given the sum of elements of first row and last row along with the column sum of each column using greedy.&#10;&#10;Learnings: In greedy reconstruction problems, try to first fill what is known and does not have any choice" />
+    <MESSAGE value="Solve medium and extremely tricky problem, find the longest uncommon subsequence between a list of strings such that the subsequence exists only in one string and not in any other string using greedy and brute force." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and extremely tricky problem, find the longest uncommon subsequence between a list of strings such that the subsequence exists only in one string and not in any other string using greedy and brute force." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

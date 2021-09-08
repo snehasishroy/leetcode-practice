@@ -29,7 +29,7 @@ public class RangeAddition {
      * <p>
      * When asked to print the modified array, just do a prefix sum
      * <p>
-     * {@link experience.directi.DSA.txt} {@link DescribeThePainting}
+     * {@link experience.directi.DSA.txt} {@link DescribeThePainting} {@link RangeAddition2}
      */
     public int[] getModifiedArray(int length, int[][] updates) {
         int[] arr = new int[length];

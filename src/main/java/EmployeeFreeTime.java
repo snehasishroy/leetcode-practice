@@ -40,7 +40,7 @@ public class EmployeeFreeTime {
      * Check if the previous interval and current interval are disjoint, if yes, the gap is the free interval
      * Refer to the priority queue solution in {@link IntervalListIntersections}
      *
-     * {@link DescribeThePainting}
+     * {@link DescribeThePainting} {@link RangeAddition2}
      */
     public List<Interval> employeeFreeTimeUsingLineSweep(List<List<Interval>> schedule) {
         TreeMap<Integer, Integer> map = new TreeMap<>(); //mapping of time -> counter (+1, -1)
