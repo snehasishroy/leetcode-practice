@@ -51,7 +51,7 @@ public class PatchingArray {
      * https://www.youtube.com/watch?v=1h2eFrNFSSw
      * https://stackoverflow.com/a/21078133/1206152
      *
-     * {@link alternate.SmallestImpossibleSubsetSum}
+     * {@link alternate.SmallestImpossibleSubsetSum} {@link MaximumNumberOfConsecutiveValuesYouCanMake}
      */
     public int minPatches(int[] nums, int target) {
         int n = nums.length;

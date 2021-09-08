@@ -22,6 +22,6 @@ public class SmallestImpossibleSubsetSum {
    else: candidate = candidate + A[i]
             return candidate
 
-    Related Problem: {@link PatchingArray}
+    Related Problem: {@link PatchingArray} {@link MaximumNumberOfConsecutiveValuesYouCanMake}
     */
 }

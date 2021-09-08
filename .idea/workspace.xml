@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PatchingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PatchingArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
@@ -393,13 +394,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00973" summary="Solve easy problem, find the number of triplets which satisfies a^2 + b^2 = c^2 and a,b,c &lt;= n using brute force.">
-      <created>1626382102408</created>
-      <option name="number" value="00973" />
-      <option name="presentableId" value="LOCAL-00973" />
-      <option name="project" value="LOCAL" />
-      <updated>1626382102408</updated>
-    </task>
     <task id="LOCAL-00974" summary="Solve medium problem, find the nearest exit from an entrance in maze using BFS.">
       <created>1626383180431</created>
       <option name="number" value="00974" />
@@ -736,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631120772890</updated>
     </task>
-    <option name="localTasksCounter" value="1022" />
+    <task id="LOCAL-01022" summary="Solve hard and extremely tricky problem, given an array, add minimum elements to the array to cover all the numbers in the range of [1,target] by subset sums of the elements of the array using greedy.&#10;&#10;Leveraged prior learnings of solving the smallest impossible subset sum.">
+      <created>1631123034335</created>
+      <option name="number" value="01022" />
+      <option name="presentableId" value="LOCAL-01022" />
+      <option name="project" value="LOCAL" />
+      <updated>1631123034335</updated>
+    </task>
+    <option name="localTasksCounter" value="1023" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +816,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve easy problem, count no of negative numbers in a row and column sorted matrix using two pointers." />
     <MESSAGE value="Solve medium and a bit tricky to understand problem, find whether a move is legal or not by iterating in 8 directions.&#10;&#10;Was unable to solve this question in the contest as I wrongly assumed that the endpoint must end on the border :(" />
     <MESSAGE value="Solve easy problem, find whether a prefix of given arrays of words can result in a target string using two pointers." />
     <MESSAGE value="Solve medium problem and a bit tricky to optimize runtime, remove maximum stones to minimize the total using greedy / priority queue or bucket/counting sort.&#10;&#10;Learnings: Counting sort can be used to optimize runtime when we are interested only in min/max." />
@@ -840,7 +840,8 @@
     <MESSAGE value="Solve medium and extremely tricky problem, reconstruct a 2 row binary matrix given the sum of elements of first row and last row along with the column sum of each column using greedy.&#10;&#10;Learnings: In greedy reconstruction problems, try to first fill what is known and does not have any choice" />
     <MESSAGE value="Solve medium and extremely tricky problem, find the longest uncommon subsequence between a list of strings such that the subsequence exists only in one string and not in any other string using greedy and brute force." />
     <MESSAGE value="Solve easy but a bit tricky problem, find the intersection of all rectangles originating from [0,0] using greedy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve easy but a bit tricky problem, find the intersection of all rectangles originating from [0,0] using greedy." />
+    <MESSAGE value="Solve hard and extremely tricky problem, given an array, add minimum elements to the array to cover all the numbers in the range of [1,target] by subset sums of the elements of the array using greedy.&#10;&#10;Leveraged prior learnings of solving the smallest impossible subset sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve hard and extremely tricky problem, given an array, add minimum elements to the array to cover all the numbers in the range of [1,target] by subset sums of the elements of the array using greedy.&#10;&#10;Leveraged prior learnings of solving the smallest impossible subset sum." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
