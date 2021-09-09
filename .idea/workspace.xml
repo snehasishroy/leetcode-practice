@@ -33,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daily-coding-problem/LockBinaryTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daily-coding-problem/LockBinaryTree.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,20 +393,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00977" summary="Solve medium and extremely tricky to optimize, find the smallest no of subsequences of a string that can be concatenated to form a target string using binary search, brute force and DP&#10;&#10;Learnings: DP solution was very interesting and new to me. It allowed to perform query in O(1) time and reduced the time complexity to linear. Very cool.">
-      <created>1626450934492</created>
-      <option name="number" value="00977" />
-      <option name="presentableId" value="LOCAL-00977" />
-      <option name="project" value="LOCAL" />
-      <updated>1626450934492</updated>
-    </task>
-    <task id="LOCAL-00978" summary="Solve medium problem, prune a binary tree of subtrees not containing 1 using recursion.">
-      <created>1627068827420</created>
-      <option name="number" value="00978" />
-      <option name="presentableId" value="LOCAL-00978" />
-      <option name="project" value="LOCAL" />
-      <updated>1627068827421</updated>
-    </task>
     <task id="LOCAL-00979" summary="Solve medium and a bit tricky problem">
       <created>1627071259990</created>
       <option name="number" value="00979" />
@@ -735,7 +722,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631201878620</updated>
     </task>
-    <option name="localTasksCounter" value="1026" />
+    <task id="LOCAL-01026" summary="Solve medium and a bit tricky problem, given two grids, find the number of islands in grid2 where all the corresponding cells in grid1 are also part of an island using two pass DFS.">
+      <created>1631203434057</created>
+      <option name="number" value="01026" />
+      <option name="presentableId" value="LOCAL-01026" />
+      <option name="project" value="LOCAL" />
+      <updated>1631203434057</updated>
+    </task>
+    <task id="LOCAL-01027" summary="Add approach to solve the FindAllGroupsOfFarmland in one pass.">
+      <created>1631203595362</created>
+      <option name="number" value="01027" />
+      <option name="presentableId" value="LOCAL-01027" />
+      <option name="project" value="LOCAL" />
+      <updated>1631203595362</updated>
+    </task>
+    <option name="localTasksCounter" value="1028" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,8 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky problem, reorder an array such that every adjacent pair of elements equals [x, 2*x] using greedy.&#10;&#10;Learnings: Reading the problem statement carefully is very important. Lately I have been misreading them quite a lot, which is costing me a lot :(" />
-    <MESSAGE value="Solve medium and a bit tricky problem, find the min cost to flip a string to monotone increasing using two pass solution." />
     <MESSAGE value="Solve medium and a bit tricky maths problem, find the min steps required to find the first floor at which an egg breaks given 2 eggs and N floors using maths or DP" />
     <MESSAGE value="Solve hard and extremely tricky to optimize, find the first floor at which egg breaks given n floors and k eggs using DP + Binary Search&#10;&#10;Learnings: DP State Optimization problem as the trivial DP gives TLE." />
     <MESSAGE value="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search." />
@@ -839,7 +838,9 @@
     <MESSAGE value="Solve medium and extremely tricky problem, find the max number of consecutive subset sum possible using greedy." />
     <MESSAGE value="Solve medium problem, find the first and last occurrence of all groups of land using two pass DFS." />
     <MESSAGE value="Solve medium and a bit tricky problem, find the number of pairs which are strictly weaker than any other pairs using binary search and greedy.&#10;&#10;This would be a really fun interview problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and a bit tricky problem, find the number of pairs which are strictly weaker than any other pairs using binary search and greedy.&#10;&#10;This would be a really fun interview problem." />
+    <MESSAGE value="Solve medium and a bit tricky problem, given two grids, find the number of islands in grid2 where all the corresponding cells in grid1 are also part of an island using two pass DFS." />
+    <MESSAGE value="Add approach to solve the FindAllGroupsOfFarmland in one pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add approach to solve the FindAllGroupsOfFarmland in one pass." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
