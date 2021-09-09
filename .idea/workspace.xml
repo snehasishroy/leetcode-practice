@@ -27,14 +27,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaximumSumCircularSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumDifficultyOfJobSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PatchingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PatchingArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alternate/SmallestImpossibleSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alternate/SmallestImpossibleSubsetSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,13 +394,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00974" summary="Solve medium problem, find the nearest exit from an entrance in maze using BFS.">
-      <created>1626383180431</created>
-      <option name="number" value="00974" />
-      <option name="presentableId" value="LOCAL-00974" />
-      <option name="project" value="LOCAL" />
-      <updated>1626383180431</updated>
-    </task>
     <task id="LOCAL-00975" summary="Solve hard and a bit tricky problem, find the minimum cost to reach a target node in a specified amount of time using modified Djikstra&#10;&#10;Leveraged prior learnings from solving CheapestFlightWithinKStop">
       <created>1626383896687</created>
       <option name="number" value="00975" />
@@ -737,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631123034335</updated>
     </task>
-    <option name="localTasksCounter" value="1023" />
+    <task id="LOCAL-01023" summary="Solve medium and extremely tricky problem, find the max number of consecutive subset sum possible using greedy.">
+      <created>1631129002629</created>
+      <option name="number" value="01023" />
+      <option name="presentableId" value="LOCAL-01023" />
+      <option name="project" value="LOCAL" />
+      <updated>1631129002629</updated>
+    </task>
+    <option name="localTasksCounter" value="1024" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +816,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky to understand problem, find whether a move is legal or not by iterating in 8 directions.&#10;&#10;Was unable to solve this question in the contest as I wrongly assumed that the endpoint must end on the border :(" />
     <MESSAGE value="Solve easy problem, find whether a prefix of given arrays of words can result in a target string using two pointers." />
     <MESSAGE value="Solve medium problem and a bit tricky to optimize runtime, remove maximum stones to minimize the total using greedy / priority queue or bucket/counting sort.&#10;&#10;Learnings: Counting sort can be used to optimize runtime when we are interested only in min/max." />
     <MESSAGE value="Solve medium and a bit tricky problem, reorder an array such that every adjacent pair of elements equals [x, 2*x] using greedy.&#10;&#10;Learnings: Reading the problem statement carefully is very important. Lately I have been misreading them quite a lot, which is costing me a lot :(" />
@@ -841,7 +840,8 @@
     <MESSAGE value="Solve medium and extremely tricky problem, find the longest uncommon subsequence between a list of strings such that the subsequence exists only in one string and not in any other string using greedy and brute force." />
     <MESSAGE value="Solve easy but a bit tricky problem, find the intersection of all rectangles originating from [0,0] using greedy." />
     <MESSAGE value="Solve hard and extremely tricky problem, given an array, add minimum elements to the array to cover all the numbers in the range of [1,target] by subset sums of the elements of the array using greedy.&#10;&#10;Leveraged prior learnings of solving the smallest impossible subset sum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve hard and extremely tricky problem, given an array, add minimum elements to the array to cover all the numbers in the range of [1,target] by subset sums of the elements of the array using greedy.&#10;&#10;Leveraged prior learnings of solving the smallest impossible subset sum." />
+    <MESSAGE value="Solve medium and extremely tricky problem, find the max number of consecutive subset sum possible using greedy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and extremely tricky problem, find the max number of consecutive subset sum possible using greedy." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
