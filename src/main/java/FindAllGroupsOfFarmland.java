@@ -49,6 +49,9 @@ public class FindAllGroupsOfFarmland {
      * First mark all the cells that are part of the same farmland with a distinct id.
      * Then revisit the grid and keep track of first and last occurrence of a specific id
      *
+     * In order to do it one pass, we could keep track of width and height of a farmland during the mark stage. Since all the farmlands
+     * are a rectangle, we can find last occurrence directly using width and height.
+     *
      * {@link NumberOfIslands} {@link CountSubIslands}
      */
     public int[][] findFarmland(int[][] land) {
