@@ -25,17 +25,17 @@ import java.util.Arrays;
  */
 public class DistinctSubsequences2 {
     /**
-     * Approach: Optimized DP, if there were no duplicates, and there are 10 subsequences ending at index i, there will be 20
+     * Approach: DP state optimization, if there were no duplicates, and there are 10 subsequences ending at index i, there will be 20
      * subsequences ending at index i+1, because for char at index i+1, we can extend the previous 10 subsequences by adding char at index i+1
      * So dp[i] = 2*dp[i-1]
      * However duplicate chars makes things harder for everyone except my pp, because if we extend the previous 10 characters by adding cur character,
-     * it will double count some of the substrings, specifically the substrings that were added by adding the previous occurrence of the same character
+     * it will double count some of the subsequences, specifically the subsequences that were added by adding the previous occurrence of the same character
      * e.g consider ycaxa
      * for first a, it added 4 subsequences to the previous 4 subsequences ending at c {"", y, c, yc} by adding 'a' {a, ya, ca, yca}
      * now for second a, it can make the same 4 duplicate subsequences too. so we have to remove the no of subsequences ending before the
      * previous occurrence of the current character
      * dp[i] = 2*dp[i-1] - dp[last_occurrence-1]
-     * Its a bit tricky to visualize but try to solve it on paper for "ycaxaa" to get a clearer picture
+     * It's a bit tricky to visualize but try to solve it on paper for "ycaxaa" to get a clearer picture
      */
     public int distinctSubseqIIOptimized(String S) {
         int MOD = 1_000_000_007;

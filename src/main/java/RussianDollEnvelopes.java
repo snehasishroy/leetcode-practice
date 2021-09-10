@@ -25,7 +25,8 @@ public class RussianDollEnvelopes {
      * Approach: Extension of finding LIS in 2D array
      * Here both width and height of previous element should be < width and height of current element
      *
-     * {@link TheNumberOfWeakCharactersInTheGame}
+     * {@link TheNumberOfWeakCharactersInTheGame} {@link DistinctSubsequences2} {@link BestTeamWithNoConflicts} {@link IncreasingSubsequences}
+     * {{@link LargestDivisibleSubset} {@link MaximumLengthOfPairChain} {@link MinimumNumberOfRemovalsToMakeMountainArray}
      */
     public int maxEnvelopes(int[][] envelopes) {
         if (envelopes.length <= 1) {

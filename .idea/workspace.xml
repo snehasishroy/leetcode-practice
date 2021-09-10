@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DistinctSubsequences2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DistinctSubsequences2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
@@ -30,10 +31,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daily-coding-problem/LockBinaryTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daily-coding-problem/LockBinaryTree.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,13 +394,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00979" summary="Solve medium and a bit tricky problem">
-      <created>1627071259990</created>
-      <option name="number" value="00979" />
-      <option name="presentableId" value="LOCAL-00979" />
-      <option name="project" value="LOCAL" />
-      <updated>1627071259990</updated>
-    </task>
     <task id="LOCAL-00980" summary="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE.">
       <created>1627131512811</created>
       <option name="number" value="00980" />
@@ -736,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631203595362</updated>
     </task>
-    <option name="localTasksCounter" value="1028" />
+    <task id="LOCAL-01028" summary="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS.">
+      <created>1631205426478</created>
+      <option name="number" value="01028" />
+      <option name="presentableId" value="LOCAL-01028" />
+      <option name="project" value="LOCAL" />
+      <updated>1631205426478</updated>
+    </task>
+    <option name="localTasksCounter" value="1029" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +816,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium and a bit tricky maths problem, find the min steps required to find the first floor at which an egg breaks given 2 eggs and N floors using maths or DP" />
     <MESSAGE value="Solve hard and extremely tricky to optimize, find the first floor at which egg breaks given n floors and k eggs using DP + Binary Search&#10;&#10;Learnings: DP State Optimization problem as the trivial DP gives TLE." />
     <MESSAGE value="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search." />
     <MESSAGE value="Solve hard and a bit tricky problem, find the last day when you can still reach any cell in last row from any cell in first row using Union Find with Dummy Node as an optimization.&#10;&#10;Learnings: Using dummy node in Union Find is a cool technique to quickly find whether a group of cells is connected to another group of cells." />
@@ -840,7 +840,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem, find the number of pairs which are strictly weaker than any other pairs using binary search and greedy.&#10;&#10;This would be a really fun interview problem." />
     <MESSAGE value="Solve medium and a bit tricky problem, given two grids, find the number of islands in grid2 where all the corresponding cells in grid1 are also part of an island using two pass DFS." />
     <MESSAGE value="Add approach to solve the FindAllGroupsOfFarmland in one pass." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add approach to solve the FindAllGroupsOfFarmland in one pass." />
+    <MESSAGE value="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
