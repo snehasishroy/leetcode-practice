@@ -36,6 +36,8 @@ public class DistinctSubsequences2 {
      * previous occurrence of the current character
      * dp[i] = 2*dp[i-1] - dp[last_occurrence-1]
      * It's a bit tricky to visualize but try to solve it on paper for "ycaxaa" to get a clearer picture
+     *
+     * {@link ArithmeticSlices2Subsequence} {@link RussianDollEnvelopes} {@link ArithmeticSlices}
      */
     public int distinctSubseqIIOptimized(String S) {
         int MOD = 1_000_000_007;

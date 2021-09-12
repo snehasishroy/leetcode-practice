@@ -31,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
@@ -310,7 +309,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoldMine">
+  <component name="RunManager" selected="Application.WeakTypingA2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -322,20 +321,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsistencyA1Verification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackercup2021.ConsistencyA1Verification" />
-      <module name="leetcode-practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsistencyA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackercup2021.ConsistencyA2" />
-      <module name="leetcode-practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hackercup2021.GoldMine" />
       <module name="leetcode-practice" />
@@ -343,8 +328,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XAndO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackercup2021.XAndO" />
+    <configuration name="TrafficControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.TrafficControl" />
+      <module name="leetcode-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeakTypingA1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.WeakTypingA1" />
+      <module name="leetcode-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeakTypingA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.WeakTypingA2" />
+      <module name="leetcode-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeakTypingA2BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackercup2021.WeakTypingA2BruteForce" />
       <module name="leetcode-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,28 +366,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dummy" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dummy" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ConsistencyA2" />
-      <item itemvalue="Application.ConsistencyA1Verification" />
-      <item itemvalue="Application.XAndO" />
       <item itemvalue="Application.GoldMine" />
-      <item itemvalue="Java Scratch.Dummy" />
+      <item itemvalue="Application.WeakTypingA1" />
+      <item itemvalue="Application.WeakTypingA2" />
+      <item itemvalue="Application.WeakTypingA2BruteForce" />
+      <item itemvalue="Application.TrafficControl" />
       <item itemvalue="JUnit.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeakTypingA2" />
+        <item itemvalue="Application.TrafficControl" />
+        <item itemvalue="Application.WeakTypingA2BruteForce" />
+        <item itemvalue="Application.WeakTypingA1" />
         <item itemvalue="Application.GoldMine" />
-        <item itemvalue="Java Scratch.Dummy" />
-        <item itemvalue="Application.XAndO" />
-        <item itemvalue="Application.ConsistencyA2" />
-        <item itemvalue="Application.ConsistencyA1Verification" />
       </list>
     </recent_temporary>
   </component>
@@ -393,13 +392,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00980" summary="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE.">
-      <created>1627131512811</created>
-      <option name="number" value="00980" />
-      <option name="presentableId" value="LOCAL-00980" />
-      <option name="project" value="LOCAL" />
-      <updated>1627131512811</updated>
     </task>
     <task id="LOCAL-00981" summary="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE.">
       <created>1627131642486</created>
@@ -737,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631205426478</updated>
     </task>
-    <option name="localTasksCounter" value="1029" />
+    <task id="LOCAL-01029" summary="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization">
+      <created>1631314556451</created>
+      <option name="number" value="01029" />
+      <option name="presentableId" value="LOCAL-01029" />
+      <option name="project" value="LOCAL" />
+      <updated>1631314556451</updated>
+    </task>
+    <option name="localTasksCounter" value="1030" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve hard and extremely tricky to optimize, find the first floor at which egg breaks given n floors and k eggs using DP + Binary Search&#10;&#10;Learnings: DP State Optimization problem as the trivial DP gives TLE." />
     <MESSAGE value="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search." />
     <MESSAGE value="Solve hard and a bit tricky problem, find the last day when you can still reach any cell in last row from any cell in first row using Union Find with Dummy Node as an optimization.&#10;&#10;Learnings: Using dummy node in Union Find is a cool technique to quickly find whether a group of cells is connected to another group of cells." />
     <MESSAGE value="Solve medium problem, find the first unique number in a queue using LRU Cache or TreeSet&#10;&#10;Leveraged prior learnings of implementing LRU Cache using dummy head/tail nodes." />
@@ -841,7 +839,8 @@
     <MESSAGE value="Solve medium and a bit tricky problem, given two grids, find the number of islands in grid2 where all the corresponding cells in grid1 are also part of an island using two pass DFS." />
     <MESSAGE value="Add approach to solve the FindAllGroupsOfFarmland in one pass." />
     <MESSAGE value="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS." />
+    <MESSAGE value="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -866,6 +865,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/hackercup2021/XAndO.java</url>
           <line>65</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hackercup2021/WeakTypingA1.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
