@@ -15,9 +15,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbb84ff-cb70-4f33-84ac-c2138746d980" name="Default Changelist" comment="Solve medium problem, find the first and l">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArithmeticSlices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArithmeticSlices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignTicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignTicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DistinctSubsequences2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DistinctSubsequences2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
@@ -31,8 +33,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SubarrayProductLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SubarrayProductLessThanK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +283,6 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RebelAgentSelection">
@@ -392,13 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
-    </task>
-    <task id="LOCAL-00981" summary="Solve hard and a bit tricky problem, find all the shortest paths that can transform a word into another word using BFS and pruning.&#10;&#10;Learnings: Pruning was critical to avoid TLE.">
-      <created>1627131642486</created>
-      <option name="number" value="00981" />
-      <option name="presentableId" value="LOCAL-00981" />
-      <option name="project" value="LOCAL" />
-      <updated>1627131642486</updated>
     </task>
     <task id="LOCAL-00982" summary="Solve hard problem, reverse linked list in groups of size k using 3 pointers.&#10;&#10;Leveraged prior learnings of reversing an entire linked list using 3 pointers.">
       <created>1627136043419</created>
@@ -736,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631314556451</updated>
     </task>
-    <option name="localTasksCounter" value="1030" />
+    <task id="LOCAL-01030" summary="Solve medium and a bit tricky problem, find the total no of arithmetic subarrays of length &gt;= 3 using maths.">
+      <created>1631453068508</created>
+      <option name="number" value="01030" />
+      <option name="presentableId" value="LOCAL-01030" />
+      <option name="project" value="LOCAL" />
+      <updated>1631453068509</updated>
+    </task>
+    <option name="localTasksCounter" value="1031" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,6 +799,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="union find" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="TEXT_FILTER_SETTINGS">
                 <TextFilterSettings>
                   <option name="REGEX" value="true" />
@@ -815,7 +829,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve easy and a bit tricky problem, find the peak index in a mountain array using binary search." />
     <MESSAGE value="Solve hard and a bit tricky problem, find the last day when you can still reach any cell in last row from any cell in first row using Union Find with Dummy Node as an optimization.&#10;&#10;Learnings: Using dummy node in Union Find is a cool technique to quickly find whether a group of cells is connected to another group of cells." />
     <MESSAGE value="Solve medium problem, find the first unique number in a queue using LRU Cache or TreeSet&#10;&#10;Leveraged prior learnings of implementing LRU Cache using dummy head/tail nodes." />
     <MESSAGE value="Solve medium problem, check whether a root to leaf path exists in a binary tree that matches the target path using recursion." />
@@ -840,7 +853,8 @@
     <MESSAGE value="Add approach to solve the FindAllGroupsOfFarmland in one pass." />
     <MESSAGE value="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS." />
     <MESSAGE value="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization" />
+    <MESSAGE value="Solve medium and a bit tricky problem, find the total no of arithmetic subarrays of length &gt;= 3 using maths." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and a bit tricky problem, find the total no of arithmetic subarrays of length &gt;= 3 using maths." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -70,9 +70,9 @@ public class DesignTicTacToe {
      * Approach: Maintain reverse index or lookup table, Instead of actually placing the specific character and then checking whether the current row, col and diagonals
      * are filled with same character, keep track of the count of characters placed per player.
      * <p>
-     * Count needs to be tracked per row, per col, per diagonal and anti diagonal. A bit of optimization can be performed for
+     * Count needs to be tracked per row, per col, per diagonal and anti-diagonal. A bit of optimization can be performed for
      * diagonal, as only the longest diagonal can contribute to the result, instead of tracking all the diagonals, tracking just
-     * two count variables for diagonal and anti diagonal should be sufficient
+     * two count variables for diagonal and anti-diagonal should be sufficient
      * <p>
      * Time Complexity: O(1)
      * <p>
@@ -82,8 +82,8 @@ public class DesignTicTacToe {
         this.n = n;
         rows = new int[n][3];
         cols = new int[n][3];
-        diagonal = new int[2 * n][3];
-        antiDiagonal = new int[2 * n][3];
+        diagonal = new int[2 * n - 1][3]; //there are a total of 2n - 1 diagonals
+        antiDiagonal = new int[2 * n - 1][3]; //top right to bottom left direction
     }
 
     /**
@@ -100,9 +100,14 @@ public class DesignTicTacToe {
     public int move(int row, int col, int player) {
         rows[row][player]++;
         cols[col][player]++;
-        diagonal[row + col][player]++;
-        antiDiagonal[row - col + n][player]++;
-        if (rows[row][player] == n || cols[col][player] == n || diagonal[row + col][player] == n || antiDiagonal[row - col + n][player] == n) {
+        antiDiagonal[row + col][player]++;
+        int diagonalId = row - col;
+        if (diagonalId < 0) {
+            diagonalId *= -1;
+            diagonalId += (n - 1);
+        }
+        diagonal[diagonalId][player]++;
+        if (rows[row][player] == n || cols[col][player] == n || diagonal[diagonalId][player] == n || antiDiagonal[row + col][player] == n) {
             return player;
         } else {
             return 0;
