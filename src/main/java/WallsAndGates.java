@@ -32,9 +32,12 @@ public class WallsAndGates {
     int[] y_offset = new int[]{1, 0, -1, 0};
 
     /**
-     * Approach: Since the problem asked to identify the shortest distance between a gate and a empty room, BFS comes into picture
+     * Approach: Since the problem asked to identify the shortest distance between a gate and an empty room, BFS comes into picture
      * Push all the gates into the queue and update the distance of the adjacent empty rooms. No pruning required. Because once a node is marked
      * it won't be picked up later.
+     *
+     * TimeComplexity: O(m*n) as each cell is pushed and popped only once in the queue.
+     *
      * Similar to previously solved {@link RottingOranges}
      */
     public void wallsAndGates(int[][] rooms) {
@@ -50,6 +53,7 @@ public class WallsAndGates {
             }
         }
         int distance = 0;
+        int EMPTY = Integer.MIN_VALUE;
         while (!queue.isEmpty()) {
             int size = queue.size();
             distance++;
@@ -60,8 +64,8 @@ public class WallsAndGates {
                 for (int j = 0; j < 4; j++) {
                     int new_x = x + x_offset[j];
                     int new_y = y + y_offset[j];
-                    //if valid cell and is an empty room, update the distance
-                    if (new_x >= 0 && new_x < rooms.length && new_y >= 0 && new_y < rooms[0].length && rooms[new_x][new_y] == Integer.MIN_VALUE) {
+                    //if cell is valid and is empty, this is the shortest way to reach this cell.
+                    if (new_x >= 0 && new_x < rooms.length && new_y >= 0 && new_y < rooms[0].length && rooms[new_x][new_y] == EMPTY) {
                         rooms[new_x][new_y] = distance;
                         queue.add(new Pair<>(new_x, new_y));
                     }

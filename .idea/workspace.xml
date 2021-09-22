@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayOfDoubledPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BestTimeToBuyAndSellStock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BurstBalloons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignTicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignTicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DistinctSubsequences2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DistinctSubsequences2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicateSubtrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindKClosestElements.java" afterDir="false" />
@@ -35,9 +34,11 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShortestDistanceFromAllBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortestDistanceFromAllBuildings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SubarrayProductLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SubarrayProductLessThanK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WallsAndGates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WallsAndGates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,13 +397,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00982" summary="Solve hard problem, reverse linked list in groups of size k using 3 pointers.&#10;&#10;Leveraged prior learnings of reversing an entire linked list using 3 pointers.">
-      <created>1627136043419</created>
-      <option name="number" value="00982" />
-      <option name="presentableId" value="LOCAL-00982" />
-      <option name="project" value="LOCAL" />
-      <updated>1627136043419</updated>
-    </task>
     <task id="LOCAL-00983" summary="Update priority queue solution for classical problem MeetingsRoom2">
       <created>1627179469461</created>
       <option name="number" value="00983" />
@@ -739,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631453068509</updated>
     </task>
-    <option name="localTasksCounter" value="1031" />
+    <task id="LOCAL-01031" summary="Solve easy problem, find the winner of a tic-tac-toe game by tracking the number of moves made by a player for each row, column, diagonal and anti-diagonal&#10;&#10;Learnings: Computing the diagonalId for all the diagonals was a bit tricky as it required correct handling of negative id's. Fixed the code of DesignTicTacToe by using correct diagonalId's.">
+      <created>1632133780086</created>
+      <option name="number" value="01031" />
+      <option name="presentableId" value="LOCAL-01031" />
+      <option name="project" value="LOCAL" />
+      <updated>1632133780087</updated>
+    </task>
+    <option name="localTasksCounter" value="1032" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +830,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve hard and a bit tricky problem, find the last day when you can still reach any cell in last row from any cell in first row using Union Find with Dummy Node as an optimization.&#10;&#10;Learnings: Using dummy node in Union Find is a cool technique to quickly find whether a group of cells is connected to another group of cells." />
     <MESSAGE value="Solve medium problem, find the first unique number in a queue using LRU Cache or TreeSet&#10;&#10;Leveraged prior learnings of implementing LRU Cache using dummy head/tail nodes." />
     <MESSAGE value="Solve medium problem, check whether a root to leaf path exists in a binary tree that matches the target path using recursion." />
     <MESSAGE value="Add premium tag to FirstUniqueNumber" />
@@ -854,7 +854,8 @@
     <MESSAGE value="Solve medium and implementation heavy problem, perform locking and unlocking operations on a binary tree using DFS." />
     <MESSAGE value="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization" />
     <MESSAGE value="Solve medium and a bit tricky problem, find the total no of arithmetic subarrays of length &gt;= 3 using maths." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve medium and a bit tricky problem, find the total no of arithmetic subarrays of length &gt;= 3 using maths." />
+    <MESSAGE value="Solve easy problem, find the winner of a tic-tac-toe game by tracking the number of moves made by a player for each row, column, diagonal and anti-diagonal&#10;&#10;Learnings: Computing the diagonalId for all the diagonals was a bit tricky as it required correct handling of negative id's. Fixed the code of DesignTicTacToe by using correct diagonalId's." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve easy problem, find the winner of a tic-tac-toe game by tracking the number of moves made by a player for each row, column, diagonal and anti-diagonal&#10;&#10;Learnings: Computing the diagonalId for all the diagonals was a bit tricky as it required correct handling of negative id's. Fixed the code of DesignTicTacToe by using correct diagonalId's." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
