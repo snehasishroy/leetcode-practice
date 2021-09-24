@@ -31,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumNumberOfKConsecutiveBitFlips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrefixAndSuffixSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrefixAndSuffixSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumQueryMutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RussianDollEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeatReservationManager.java" afterDir="false" />
@@ -38,7 +39,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentAttendanceRecord2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SubarrayProductLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SubarrayProductLessThanK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfSquareNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WallsAndGates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WallsAndGates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TilingARectangleWithFewestSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TilingARectangleWithFewestSquares.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,13 +398,6 @@
       <option name="presentableId" value="Default" />
       <updated>1561288929632</updated>
     </task>
-    <task id="LOCAL-00983" summary="Update priority queue solution for classical problem MeetingsRoom2">
-      <created>1627179469461</created>
-      <option name="number" value="00983" />
-      <option name="presentableId" value="LOCAL-00983" />
-      <option name="project" value="LOCAL" />
-      <updated>1627179469462</updated>
-    </task>
     <task id="LOCAL-00984" summary="Solve medium and a bit tricky range interval problem, find the number of the smallest unoccupied chair given the arrival and leave time for all the person using greedy.&#10;&#10;Levered prior learnings of solving range interval problems.">
       <created>1627179880444</created>
       <option name="number" value="00984" />
@@ -740,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632133780087</updated>
     </task>
-    <option name="localTasksCounter" value="1032" />
+    <task id="LOCAL-01032" summary="Add time complexity to multi BFS solution of WallsAndGates">
+      <created>1632345316781</created>
+      <option name="number" value="01032" />
+      <option name="presentableId" value="LOCAL-01032" />
+      <option name="project" value="LOCAL" />
+      <updated>1632345316781</updated>
+    </task>
+    <option name="localTasksCounter" value="1033" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,7 +831,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve medium problem, find the first unique number in a queue using LRU Cache or TreeSet&#10;&#10;Leveraged prior learnings of implementing LRU Cache using dummy head/tail nodes." />
     <MESSAGE value="Solve medium problem, check whether a root to leaf path exists in a binary tree that matches the target path using recursion." />
     <MESSAGE value="Add premium tag to FirstUniqueNumber" />
     <MESSAGE value="Solve medium problem, find the maximum product achieved by splitting a binary tree into two subtrees by removing one edge using DP&#10;&#10;Leveraged prior learnings of solving tree partitioning problems that the decision to cut should be made by the parent." />
@@ -855,7 +855,8 @@
     <MESSAGE value="Add related DP subsequences problems similar to RussianDollEnvelopes and tag DistinctSubsequences2 with DP State Optimization" />
     <MESSAGE value="Solve medium and a bit tricky problem, find the total no of arithmetic subarrays of length &gt;= 3 using maths." />
     <MESSAGE value="Solve easy problem, find the winner of a tic-tac-toe game by tracking the number of moves made by a player for each row, column, diagonal and anti-diagonal&#10;&#10;Learnings: Computing the diagonalId for all the diagonals was a bit tricky as it required correct handling of negative id's. Fixed the code of DesignTicTacToe by using correct diagonalId's." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve easy problem, find the winner of a tic-tac-toe game by tracking the number of moves made by a player for each row, column, diagonal and anti-diagonal&#10;&#10;Learnings: Computing the diagonalId for all the diagonals was a bit tricky as it required correct handling of negative id's. Fixed the code of DesignTicTacToe by using correct diagonalId's." />
+    <MESSAGE value="Add time complexity to multi BFS solution of WallsAndGates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add time complexity to multi BFS solution of WallsAndGates" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
